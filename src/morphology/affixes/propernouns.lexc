@@ -13,7 +13,7 @@ LEXICON ProperNounCases
 +N+Prop:%:   Cases  ;
 +N+Prop:%:   Cases  ;
 +N+Prop:%:   Cases  ;
-        -    Nouns  ;
+!        -    Nouns  ;
 
 ! vim: set ft=xfst-lexc:
 

@@ -29,12 +29,14 @@ GT_LEXC_SRCS=\
 			 stems/conjunctions.lexc \
 			 stems/interjections.lexc \
 			 stems/nouns.lexc \
+			 stems/particles.lexc \
 			 stems/pronouns.lexc \
 			 stems/propernouns.lexc \
 			 stems/quantifiers.lexc \
 			 stems/verbs.lexc \
 			 affixes/adjectives.lexc \
 			 affixes/nouns.lexc \
+			 affixes/pronouns.lexc \
 			 affixes/propernouns.lexc \
 			 affixes/verbs.lexc
 

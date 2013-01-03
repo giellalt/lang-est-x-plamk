@@ -161,6 +161,9 @@ Punctuation	 ;
 
 !! POS with minimal morphological variation
 
+LEXICON ACRONDELIMITER
+#;
+
 LEXICON K
 +Foc/gi:%>gi # ;
  # ;
