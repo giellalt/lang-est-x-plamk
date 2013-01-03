@@ -1,0 +1,8 @@
+!! Nouns
+!! -----
+!! Nouns in the Estonian language are things.
+
+LEXICON nouns
+hobune:hobu    N-hobune   ;
+
+! vim: set ft=xfst-lexc:

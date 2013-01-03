@@ -1,0 +1,10 @@
+!! Adpositions
+!! -----
+!! Adpositions in the Estonian language are ...
+
+LEXICON adpositions
+all:all      PoTag     ;
+ilma:ilma    PrepTag   ;
+
+
+! vim: set ft=xfst-lexc:
