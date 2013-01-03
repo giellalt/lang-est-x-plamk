@@ -1,0 +1,8 @@
+!! Proper nouns
+!! -----
+!! Proper nouns in the Estonian language are things.
+
+LEXICON propernouns
+Tartu:Tartu    Prop-tartu   ;
+
+! vim: set ft=xfst-lexc:

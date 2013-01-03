@@ -1,0 +1,8 @@
+!! Adjectives
+!! ----------
+!! Adjectives in the Estonian language describe things.
+
+LEXICON adjectives
+punane:puna A-punane   ;
+
+! vim: set ft=xfst-lexc:

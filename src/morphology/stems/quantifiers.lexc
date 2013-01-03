@@ -1,0 +1,9 @@
+!! Quantifiers
+!! -----
+!! Quantifiers in the Estonian language are numerals 
+
+LEXICON quantifiers
+üks:üks      NumTag     ;
+
+
+! vim: set ft=xfst-lexc:
