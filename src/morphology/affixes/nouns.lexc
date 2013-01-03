@@ -1,0 +1,17 @@
+!! Noun inflection
+!! ---------------
+!! Nouns in the Estonian language inflect for case and number.
+
+LEXICON N-hobune
++N: N-hobune_01 ;
+
+LEXICON N-hobune_01
++Sg+Nom:ne K ;
+
+LEXICON Cases
++N+Sg+Nom:0     #   ;
++N+Pl+Nom:i     #   ;
+
+
+! vim: set ft=xfst-lexc:
+

@@ -1,0 +1,14 @@
+!! Adjective inflection
+!! --------------------
+!! Adjectives in the Estonian language adjectives compare.
+
+LEXICON A-punane
++A: N-hobune_01 ;
++A:sem Comparison ;
+
+LEXICON Comparison
++Comp+Sg+Nom:       K   ;
+
+
+! vim: set ft=xfst-lexc:
+

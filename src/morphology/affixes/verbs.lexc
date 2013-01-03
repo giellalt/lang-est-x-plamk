@@ -1,0 +1,16 @@
+!! Verb inflection
+!! ---------------
+!! Verbs in the Estonian language inflect for number and persons.
+
+LEXICON V-sööma
++V+Ind+Prs+Sg1:%>n   K   ;
++V+Ind+Prs+Sg2:%>d   K   ;
++V+Ind+Prs+Sg3:%>b   K   ;
++V+Ind+Prs+Pl1:%>me   K   ;
++V+Ind+Prs+Pl2:%>te   K   ;
++V+Ind+Prs+Pl3:%>vad   K   ;
++V+Inf:%>ma    K   ;
++V+Der/mine:mi   N-hobune   ;
+
+! vim: set ft=xfst-lexc:
+
