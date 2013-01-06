@@ -7,6 +7,8 @@ LEXICON N-hobune
 
 LEXICON N-hobune_01
 +Sg+Nom:ne K ;
++Sg+Gen:se K ;
++Sg+Com:sega K ;
 
 LEXICON Cases
 +N+Sg+Nom:0     #   ;
