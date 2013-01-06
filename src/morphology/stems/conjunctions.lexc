@@ -1,9 +1,5 @@
-!! Conjunctions and subjunctions
-!! ----------
-!! Conjunctions in the Estonian language ...
 
 LEXICON conjunctions
-ja:ja CcTag  "/(eng) and/(fin) ja" ;
-kui:kui CsTag "/(eng) if/(fin) jos"  ;
 
-! vim: set ft=xfst-lexc:
+ja:ja CcTag  "and" ;
+kui:kui CsTag  "if" ;

@@ -1,8 +1,4 @@
-!! Interjections
-!! ----------
-!! Interjections in the Estonian language ...
 
 LEXICON interjections
-aitäh:aitäh InterjTag  "/(eng) thank you/(fin) kiitos" ;
 
-! vim: set ft=xfst-lexc:
+aitäh:aitäh InterjTag  "thank you" ;

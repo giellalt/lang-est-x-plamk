@@ -114,22 +114,15 @@ Multichar_Symbols
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
  {aä} {oö} {uü}
- %> V1 V2 V3 AÄ1 OÖ1 UY1 
- %^E1 %^TS
- K1 %^NoGrad ! Nogradation
+ %> V1 
 
 !! And following triggers to control variation
  {front} {back}
- %^ShVws %^LVws
- %^ShCns %^LCns
- %^WCns %^StrCns
+ %^LVws
+ %^LCns
+ %^WCns
  %^AtoO
- %^ÄtoÖ
- %^OddSyll ! arvata, arvant but arvanneet
- %^StretchSyll2 ! creates ommeena from omena
- %^SyllBr ! syllable break for venät and lyhyt
- %^RVws ! 
- %^WGStem ! weak-grade stem for _ompel_ to _ommel_
+ %^RVws
 
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics:

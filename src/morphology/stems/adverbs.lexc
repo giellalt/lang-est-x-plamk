@@ -1,8 +1,4 @@
-!! Adverbs
-!! ----------
-!! Adverbs in the Estonian language ...
 
 LEXICON adverbs
-täna:täna AdvTag   ;
 
-! vim: set ft=xfst-lexc:
+täna:täna AdvTag  "today" ;

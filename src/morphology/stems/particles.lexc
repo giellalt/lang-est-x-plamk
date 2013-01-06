@@ -1,8 +1,4 @@
-!! Particles
-!! -----
-!! Particles in the Estonian language are ...
 
 LEXICON particles
-kas:kas    PcleTag   ;
 
-! vim: set ft=xfst-lexc:
+kas:kas PcleTag  "" ;
