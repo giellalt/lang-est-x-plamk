@@ -16,3 +16,10 @@ Tests:
 
   Verb - sööma: # Verb 'to eat' - full paradigm
      sööma+V+Ind+Prs+Sg1: söön
+     sööma+V+Ind+Prs+Sg2: sööd
+     sööma+V+Ind+Prs+Sg3: sööb
+     sööma+V+Ind+Prs+Pl1: sööme
+     sööma+V+Ind+Prs+Pl2: sööte
+     sööma+V+Ind+Prs+Pl3: söövad
+
+     

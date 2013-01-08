@@ -2,6 +2,7 @@
 !! ---------------
 !! Nouns in the Estonian language inflect for case and number.
 
+!hobune:hobu
 LEXICON N-hobune
 +N: N-hobune_01 ;
 
@@ -10,8 +11,14 @@ LEXICON N-hobune_01
 +Sg+Gen:se K ;
 +Sg+Com:sega K ;
 
+!koer:koera
+LEXICON N-koer
++Sg+Nom:0 # ;
++Sg+Gen:a # ;
++Sg+Com:aga # ;
+
 LEXICON Cases
-+N+Sg+Nom:0     #   ;
++N+Sg+Nom:0     # ;
 +N+Pl+Nom:i     #   ;
 
 
