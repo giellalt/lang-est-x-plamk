@@ -21,13 +21,8 @@ V1:ä
 V1:ö
 
 %- !Hyphen in  constructions 
-%>:0
-#:0   ! Word boundary for both lexicalised and dynamic compounds
-
-Cx
-Cy
-X
-Y
+%>
+#   ! Word boundary for both lexicalised and dynamic compounds
 
 %^LVws:0
 %^LCns:0
@@ -58,11 +53,10 @@ Rules
 !ö:ü <=> _  ö: %>: a %^RVws:0 ;
 !        ö: _  %>: a %^RVws:0 ;
 
-
 !sööma:süüa
 "Vowel raising ö:ü, o:u in Inf"
-Vx:Vy <=> _  Vx: %>: a %^RVws:0 ;
-      Vx: _  %>: a %^RVws:0 ;
-        where Vx in ( ö o )
-              Vy in ( ü u )
-            matched ;
+Vx:Vy <=> _     Vx:Vy %>: a %^RVws:0 ;
+		  Vx:Vy _     %>: a %^RVws:0 ;
+          where Vx in ( ö o )
+                Vy in ( ü u )
+          matched ;
