@@ -9,8 +9,8 @@ LEXICON V-sööma
 +V+Ind+Prs+Pl1:%>me   K   ;
 +V+Ind+Prs+Pl2:%>te   K   ;
 +V+Ind+Prs+Pl3:%>vad   K   ;
-+V+Inf:%>ma    K   ;
-+V+Inf+Ill:%>a%^RVws K ; ! How should this be marked?
++V+Sup:%>ma    K   ;
++V+Inf:%>a%^RVws K ; ! How should this be marked?
 +V+Der/mine:mi   N-hobune   ;
 
 ! vim: set ft=xfst-lexc:
