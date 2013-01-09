@@ -54,6 +54,15 @@ Letters = Vws Cns ;
 Rules
 
 !sööma:süüa
-"ö:ü in Inf"
-ö:ü <=> _  ö: %> a %^RVws:0 ;
-        ö: _  %> a %^RVws:0 ;
+!"ö:ü in Inf"
+!ö:ü <=> _  ö: %>: a %^RVws:0 ;
+!        ö: _  %>: a %^RVws:0 ;
+
+
+!sööma:süüa
+"Vowel raising ö:ü, o:u in Inf"
+Vx:Vy <=> _  Vx: %>: a %^RVws:0 ;
+      Vx: _  %>: a %^RVws:0 ;
+        where Vx in ( ö o )
+              Vy in ( ü u )
+            matched ;
