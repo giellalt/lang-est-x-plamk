@@ -21,5 +21,15 @@ Tests:
      sööma+V+Ind+Prs+Pl1: sööme
      sööma+V+Ind+Prs+Pl2: sööte
      sööma+V+Ind+Prs+Pl3: söövad
+     sööma+V+Ind+Prs+4: süüakse
+     sööma+V+Ind+Prs+4+Neg: sööda
+     sööma+V+Ind+Prt+Sg1: sõin
+     sööma+V+Ind+Prt+Sg2: sõid
+     sööma+V+Ind+Prt+Sg3: sõi
+     sööma+V+Ind+Prt+Pl1: sõime
+     sööma+V+Ind+Prt+Pl2: sõite
+     sööma+V+Ind+Prt+Pl3: sõid
+     sööma+V+Ind+Prt+4: söödi
+     sööma+V+Imprt+Sg2: söö
 
-     
+# up to Verb main imper present second singular active afirmative

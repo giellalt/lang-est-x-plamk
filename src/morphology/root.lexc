@@ -58,6 +58,8 @@ Multichar_Symbols
  +Attr +Card
  +Ord 
  +Univ ! universal quantifier
+
+!!VERB
 !! Verb moods are:
  +Ind +Prs +Prt +Pot +Cond +Imprt
 !! Verb personal forms are:
@@ -67,6 +69,7 @@ Multichar_Symbols
  +ActPrsPrc +ActPrtPrc
   +Prc +PrtPrc +Sup +VGen +VAbess
 +PrfPrc ! Which one is needed?
++4 ! Impersonal
 
 ! Abbreviated words are classified with:
  +ABBR +ACR 
