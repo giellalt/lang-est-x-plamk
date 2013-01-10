@@ -15,6 +15,7 @@ LEXICON V-sööma
 +V+Cond+Prs+4:%>daks K ;
 +V+Cond+Prt+4:%>duks K ;
 +V+Ind+Prs+4:%^RVws%>akse K ; !!How should this be marked?
++V+Ind+Prt:%>%^Prti pöörded-ita ; ! 
 +V+Ind+Prt+4:%>di K ;
 +V+Ind+Prs+4+Neg:%>da K ;
 +V+Imprt+Sg2+Neg:%>0 K ;
@@ -45,6 +46,14 @@ LEXICON pöörded
 +Pl1:%>ime   K   ;
 +Pl2:%>ite   K   ;
 +Pl3:%>id   K   ;
+
+LEXICON pöörded-ita
++Sg1:%>n   K   ;
++Sg2:%>d   K   ;
++Sg3:%>   K   ;
++Pl1:%>me   K   ;
++Pl2:%>te   K   ;
++Pl3:%>d   K   ;
 
 
 ! vim: set ft=xfst-lexc:
