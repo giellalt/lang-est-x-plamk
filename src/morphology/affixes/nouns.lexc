@@ -10,17 +10,32 @@ LEXICON N-hobune_01
 +Sg+Nom:ne K ;
 +Sg+Gen:se K ;
 +Sg+Com:sega K ;
+:se PLNOM ;
+:se PLPAR_id ;
 
 ! !koer:koera
-! LEXICON N-koer
-! +Sg+Nom:0 # ;
-! +Sg+Gen:a # ;
-! +Sg+Com:aga # ;
+LEXICON N-koer
++Sg+Nom:0 # ;
++Sg+Gen:a # ;
++Sg+Com:aga # ;
+:a PLNOM ;
+ PLPAR_i ;
 
 LEXICON Cases
 +N+Sg+Nom:0     # ;
-+N+Pl+Nom:i     #   ;
++N+Pl+Nom:d     #   ;
 
+LEXICON PLNOM
++Pl+Nom:%>d K ;
+
+!two syllable
+LEXICON PLPAR_i
++Pl+Par:%>%^Pli     #   ; !laps:lapsi
+
+!One syllable, three syllable
+!puu:puid, hobune:hobuseid
+LEXICON PLPAR_id
++Pl+Par:%>%^Plid     #   ; !puu:puid
 
 ! vim: set ft=xfst-lexc:
 
