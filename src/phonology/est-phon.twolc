@@ -55,8 +55,8 @@ Rules
 
 !sööma:süüa
 "Vowel raising ö:ü, o:u in Inf"
-Vx:Vy <=> _     Vx:Vy %>: a %^RVws:0 ;
-		  Vx:Vy _     %>: a %^RVws:0 ;
+Vx:Vy <=> _     Vx:Vy %^RVws:0 %>: a  ;
+		  Vx:Vy _  %^RVws:0 %>: a ;
           where Vx in ( ö o )
                 Vy in ( ü u )
           matched ;

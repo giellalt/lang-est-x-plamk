@@ -11,11 +11,11 @@ LEXICON N-hobune_01
 +Sg+Gen:se K ;
 +Sg+Com:sega K ;
 
-!koer:koera
-LEXICON N-koer
-+Sg+Nom:0 # ;
-+Sg+Gen:a # ;
-+Sg+Com:aga # ;
+! !koer:koera
+! LEXICON N-koer
+! +Sg+Nom:0 # ;
+! +Sg+Gen:a # ;
+! +Sg+Com:aga # ;
 
 LEXICON Cases
 +N+Sg+Nom:0     # ;
