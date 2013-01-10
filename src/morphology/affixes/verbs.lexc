@@ -3,15 +3,49 @@
 !! Verbs in the Estonian language inflect for number and persons.
 
 LEXICON V-sööma
-+V+Ind+Prs+Sg1:%>n   K   ;
-+V+Ind+Prs+Sg2:%>d   K   ;
-+V+Ind+Prs+Sg3:%>b   K   ;
-+V+Ind+Prs+Pl1:%>me   K   ;
-+V+Ind+Prs+Pl2:%>te   K   ;
-+V+Ind+Prs+Pl3:%>vad   K   ;
++V+Ind+Prs:   normpöörded   ;
++V+Cond+Prs:%>ks pöörded ;
++V+Cond+Prt:%>nuks pöörded ;
++V+Imprt+Prs+Pl1+Neg:%>gem K ;
++V+Imprt+Prs+Pl1:%>gem K ;
++V+Imprt+Prs+Pl2:%>ge K ;
++V+Imprt+Prs+Pl2+Neg:%>ge K ;
++V+Imprt+Prs+4:%>dagu K ;
++V+Imprt+Prs+4+Neg:%>dagu K ;
++V+Cond+Prs+4:%>daks K ;
++V+Cond+Prt+4:%>duks K ;
++V+Ind+Prs+4:%^RVws%>akse K ; !!How should this be marked?
++V+Ind+Prt+4:%>di K ;
++V+Ind+Prs+4+Neg:%>da K ;
++V+Imprt+Sg2+Neg:%>0 K ;
++V+Imprt+Sg2:%>0 K ;
++V+Ind+Prs+Neg:%>0 K ;
++V+Imprt+Prs+Sg3+Neg:%>gu K ;
++V+Imprt+Prs+Pl3+Neg:%>gu K ;
++V+Imprt+Prs+Pl3:%>gu K ;
++V+Imprt+Prs+Sg3:%>gu K ;
+
+!
 +V+Sup:%>ma    K   ;
-+V+Inf:%>a%^RVws K ; ! How should this be marked?
++V+Inf:%^RVws%>a K ; ! How should this be marked?
 +V+Der/mine:mi   N-hobune   ;
+
+LEXICON normpöörded
++Sg1:%>n   K   ;
++Sg2:%>d   K   ;
++Sg3:%>b   K   ;
++Pl1:%>me   K   ;
++Pl2:%>te   K   ;
++Pl3:%>vad   K   ;
+
+LEXICON pöörded
++Sg1:%>in   K   ;
++Sg2:%>id   K   ;
++Sg3:%>   K   ;
++Pl1:%>ime   K   ;
++Pl2:%>ite   K   ;
++Pl3:%>id   K   ;
+
 
 ! vim: set ft=xfst-lexc:
 
