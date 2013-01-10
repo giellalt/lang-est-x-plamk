@@ -29,6 +29,8 @@ V1:ö
 %^WCns:0
 %^AtoO:0
 %^RVws:0
+%^Prti:i
+%^Pli:i
 
 ;
 
@@ -47,16 +49,24 @@ Letters = Vws Cns ;
 
 
 Rules
+!Vowels
 
 !sööma:süüa
 !"ö:ü in Inf"
 !ö:ü <=> _  ö: %>: a %^RVws:0 ;
 !        ö: _  %>: a %^RVws:0 ;
 
-!sööma:süüa
+! Vowel raising
+!sööma:süüa, jooma:juua
 "Vowel raising ö:ü, o:u in Inf"
 Vx:Vy <=> _     Vx:Vy %^RVws:0 %>: a  ;
 		  Vx:Vy _  %^RVws:0 %>: a ;
           where Vx in ( ö o )
                 Vy in ( ü u )
           matched ;
+
+! Vowel loss
+"Vowel to 0"
+Vx:0 <=> Vx: _ %> [ %^Pli: | %^Prti: ] ;
+         where Vx in ( a ä o ö) ;
+
