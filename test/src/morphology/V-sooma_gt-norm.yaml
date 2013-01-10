@@ -22,7 +22,8 @@ Tests:
      sööma+V+Ind+Prs+Pl2: sööte
      sööma+V+Ind+Prs+Pl3: söövad
      sööma+V+Ind+Prs+4: süüakse
-     sööma+V+Ind+Prs+4+ConNeg: sööda
+#     sööma+V+Ind+Prs+4+ConNeg: sööda
+     sööma+V+Ind+Prs+4+Neg: sööda
      sööma+V+Ind+Prt+Sg1: sõin
      sööma+V+Ind+Prt+Sg2: sõid
      sööma+V+Ind+Prt+Sg3: sõi
@@ -31,18 +32,25 @@ Tests:
      sööma+V+Ind+Prt+Pl3: sõid
      sööma+V+Ind+Prt+4: söödi
      sööma+V+Imprt+Sg2: söö
-     sööma+V+Imprt+Sg2+ConNeg: söö
-     sööma+V+Ind+Prs+ConNeg: söö
+#     sööma+V+Imprt+Sg2+ConNeg: söö
+     sööma+V+Imprt+Sg2+Neg: söö
+#     sööma+V+Ind+Prs+ConNeg: söö
+     sööma+V+Ind+Prs+Neg: söö
      sööma+V+Imprt+Prs+Sg3: söögu
      sööma+V+Imprt+Prs+Pl1: söögem
      sööma+V+Imprt+Prs+Pl2: sööge
      sööma+V+Imprt+Prs+Pl3: söögu
      sööma+V+Imprt+Prs+4: söödagu
-     sööma+V+Imprt+Prs+Sg3+ConNeg: söögu
-     sööma+V+Imprt+Prs+Pl1+ConNeg: söögem
-     sööma+V+Imprt+Prs+Pl2+ConNeg: sööge
-     sööma+V+Imprt+Prs+Pl3+ConNeg: söögu
-     sööma+V+Imprt+Prs+4+ConNeg: söödagu
+#     sööma+V+Imprt+Prs+Sg3+ConNeg: söögu
+#     sööma+V+Imprt+Prs+Pl1+ConNeg: söögem
+#     sööma+V+Imprt+Prs+Pl2+ConNeg: sööge
+#     sööma+V+Imprt+Prs+Pl3+ConNeg: söögu
+#     sööma+V+Imprt+Prs+4+ConNeg: söödagu
+     sööma+V+Imprt+Prs+Sg3+Neg: söögu
+     sööma+V+Imprt+Prs+Pl1+Neg: söögem
+     sööma+V+Imprt+Prs+Pl2+Neg: sööge
+     sööma+V+Imprt+Prs+Pl3+Neg: söögu
+     sööma+V+Imprt+Prs+4+Neg: söödagu
      sööma+V+Cond+Prs+Sg1: sööksin
      sööma+V+Cond+Prs+Sg2: sööksid
      sööma+V+Cond+Prs+Sg3: sööks
