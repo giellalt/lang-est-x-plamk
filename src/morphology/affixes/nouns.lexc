@@ -22,7 +22,7 @@ LEXICON N-hobune_01
 !  PLPAR_i ;
 
 LEXICON Cases
-+N+Sg+Nom:0     # ;
++N+Sg+Nom:     # ;
 +N+Pl+Nom:d     #   ;
 
 LEXICON PLNOM
