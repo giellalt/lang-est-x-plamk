@@ -65,7 +65,9 @@ Multichar_Symbols
 !! Verb personal forms are:
  +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
 !! Other verb forms are
- +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII 
+ +Inf +Ger
+ +ConNeg ! connegative _ära 'söö'_
++ConNegII +Neg +ImprtII 
  +ActPrsPrc +ActPrtPrc
   +Prc +PrtPrc +Sup +VGen +VAbess
 +PrfPrc ! Which one is needed?
