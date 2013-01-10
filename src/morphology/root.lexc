@@ -126,6 +126,8 @@ Multichar_Symbols
  %^WCns
  %^AtoO
  %^RVws
+ %^Prti
+ %^Pli
 
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics:
