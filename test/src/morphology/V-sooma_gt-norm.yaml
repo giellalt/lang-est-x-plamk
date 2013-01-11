@@ -67,7 +67,7 @@ Tests:
      sööma+V+Cond+Prs+Pl1+ConNeg: sööks
      sööma+V+Cond+Prs+Pl2+ConNeg: sööks
      sööma+V+Cond+Prs+Pl3+ConNeg: sööks
-     sööma+V+Cond+Prs+4+ConNeg: sööks
+     sööma+V+Cond+Prs+4+ConNeg: söödaks
      # conditional mood
      # past tense
      #
@@ -84,7 +84,7 @@ Tests:
      sööma+V+Cond+Prt+Pl1+ConNeg: söönuks
      sööma+V+Cond+Prt+Pl2+ConNeg: söönuks
      sööma+V+Cond+Prt+Pl3+ConNeg: söönuks
-     sööma+V+Cond+Prt+4+ConNeg: söödud
+     sööma+V+Cond+Prt+4+ConNeg: sööduks
      # imperative mood
      #
      sööma+V+Imprt+Sg2: söö
