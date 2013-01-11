@@ -3,28 +3,60 @@
 !! Verbs in the Estonian language inflect for number and persons.
 
 LEXICON V-sööma
+!!+Ind+Prs
 +V+Ind+Prs:   normpöörded   ;
-+V+Cond+Prs:%>ks pöörded ;
-+V+Cond+Prt:%>nuks pöörded ;
-+V+Imprt+Prs+Pl1+Neg:%>gem K ;
-+V+Imprt+Prs+Pl1:%>gem K ;
-+V+Imprt+Prs+Pl2:%>ge K ;
-+V+Imprt+Prs+Pl2+Neg:%>ge K ;
-+V+Imprt+Prs+4:%>dagu K ;
-+V+Imprt+Prs+4+Neg:%>dagu K ;
-+V+Cond+Prs+4:%>daks K ;
-+V+Cond+Prt+4:%>duks K ;
++V+Ind+Prs+Sg1+ConNeg:%>0 K ;
++V+Ind+Prs+Sg2+ConNeg:%>0 K ;
++V+Ind+Prs+Sg3+ConNeg:%>0 K ;
++V+Ind+Prs+Pl1+ConNeg:%>0 K ;
++V+Ind+Prs+Pl2+ConNeg:%>0 K ;
++V+Ind+Prs+Pl3+ConNeg:%>0 K ;
 +V+Ind+Prs+4:%^RVws%>akse K ; !!How should this be marked?
++V+Ind+Prs+4+ConNeg:%>da K ;
+!!+Ind+Prt
 +V+Ind+Prt:%>%^Prti pöörded-ita ; ! 
++V+Ind+Prt+Sg1+ConNeg:%>nud K ;
++V+Ind+Prt+Sg2+ConNeg:%>nud K ;
++V+Ind+Prt+Sg3+ConNeg:%>nud K ;
++V+Ind+Prt+Pl1+ConNeg:%>nud K ;
++V+Ind+Prt+Pl2+ConNeg:%>nud K ;
++V+Ind+Prt+Pl3+ConNeg:%>nud K ;
 +V+Ind+Prt+4:%>di K ;
-+V+Ind+Prs+4+Neg:%>da K ;
-+V+Imprt+Sg2+Neg:%>0 K ;
++V+Ind+Prt+4+ConNeg:%>dud K ;
+!!Imprt
++V+Imprt+Pl1+ConNeg:%>gem K ;
++V+Imprt+Pl1:%>gem K ;
++V+Imprt+Pl2:%>ge K ;
++V+Imprt+Pl2+ConNeg:%>ge K ;
++V+Imprt+4:%>dagu K ;
++V+Imprt+4+ConNeg:%>dagu K ;
++V+Imprt+Sg2+ConNeg:%>0 K ;
 +V+Imprt+Sg2:%>0 K ;
-+V+Ind+Prs+Neg:%>0 K ;
-+V+Imprt+Prs+Sg3+Neg:%>gu K ;
-+V+Imprt+Prs+Pl3+Neg:%>gu K ;
-+V+Imprt+Prs+Pl3:%>gu K ;
-+V+Imprt+Prs+Sg3:%>gu K ;
++V+Imprt+Sg3+ConNeg:%>gu K ;
++V+Imprt+Pl3+ConNeg:%>gu K ;
++V+Imprt+Pl3:%>gu K ;
++V+Imprt+Sg3:%>gu K ;
+!!Cond
++V+Cond+Prs:%>ks pöörded ;
++V+Cond+Prs+Sg1+ConNeg:%>ks K ;
++V+Cond+Prs+Sg2+ConNeg:%>ks K ;
++V+Cond+Prs+Sg3+ConNeg:%>ks K ;
++V+Cond+Prs+Pl1+ConNeg:%>ks K ;
++V+Cond+Prs+Pl2+ConNeg:%>ks K ;
++V+Cond+Prs+Pl3+ConNeg:%>ks K ;
++V+Cond+Prs+4:%>daks K ;
++V+Cond+Prs+4+ConNeg:%>daks K ;
+!!
++V+Cond+Prt:%>nuks pöörded ;
++V+Cond+Prt+Sg1+ConNeg:%>nuks K ;
++V+Cond+Prt+Sg2+ConNeg:%>nuks K ;
++V+Cond+Prt+Sg3+ConNeg:%>nuks K ;
++V+Cond+Prt+Pl1+ConNeg:%>nuks K ;
++V+Cond+Prt+Pl2+ConNeg:%>nuks K ;
++V+Cond+Prt+Pl3+ConNeg:%>nuks K ;
++V+Cond+Prt+4:%>duks K ;
++V+Cond+Prt+4+ConNeg:%>duks K ;
+
 
 !
 +V+Sup:%>ma    K   ;
