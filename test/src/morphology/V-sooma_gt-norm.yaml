@@ -13,8 +13,13 @@ Tests:
 # Proofread the gold standard (below)
 # Then: run analyser, then correct. 
 
-
   Verb - sööma: # Verb 'to eat' - full paradigm
+     # according to Eesti keele käsiraamat
+     # http://www.eki.ee/books/ekk09/
+     # -----------------------------------------
+     # indicative mood
+     # present tense
+     #
      sööma+V+Ind+Prs+Sg1: söön
      sööma+V+Ind+Prs+Sg2: sööd
      sööma+V+Ind+Prs+Sg3: sööb
@@ -22,8 +27,16 @@ Tests:
      sööma+V+Ind+Prs+Pl2: sööte
      sööma+V+Ind+Prs+Pl3: söövad
      sööma+V+Ind+Prs+4: süüakse
-#     sööma+V+Ind+Prs+4+ConNeg: sööda
-     sööma+V+Ind+Prs+4+Neg: sööda
+     sööma+V+Ind+Prs+Sg1+ConNeg: söö
+     sööma+V+Ind+Prs+Sg2+ConNeg: söö
+     sööma+V+Ind+Prs+Sg3+ConNeg: söö
+     sööma+V+Ind+Prs+Pl1+ConNeg: söö
+     sööma+V+Ind+Prs+Pl2+ConNeg: söö
+     sööma+V+Ind+Prs+Pl3+ConNeg: söö
+     sööma+V+Ind+Prs+4+ConNeg: sööda
+     # indicative mood
+     # past tense
+     #
      sööma+V+Ind+Prt+Sg1: sõin
      sööma+V+Ind+Prt+Sg2: sõid
      sööma+V+Ind+Prt+Sg3: sõi
@@ -31,26 +44,16 @@ Tests:
      sööma+V+Ind+Prt+Pl2: sõite
      sööma+V+Ind+Prt+Pl3: sõid
      sööma+V+Ind+Prt+4: söödi
-     sööma+V+Imprt+Sg2: söö
-#     sööma+V+Imprt+Sg2+ConNeg: söö
-     sööma+V+Imprt+Sg2+Neg: söö
-#     sööma+V+Ind+Prs+ConNeg: söö
-     sööma+V+Ind+Prs+Neg: söö
-     sööma+V+Imprt+Prs+Sg3: söögu
-     sööma+V+Imprt+Prs+Pl1: söögem
-     sööma+V+Imprt+Prs+Pl2: sööge
-     sööma+V+Imprt+Prs+Pl3: söögu
-     sööma+V+Imprt+Prs+4: söödagu
-#     sööma+V+Imprt+Prs+Sg3+ConNeg: söögu
-#     sööma+V+Imprt+Prs+Pl1+ConNeg: söögem
-#     sööma+V+Imprt+Prs+Pl2+ConNeg: sööge
-#     sööma+V+Imprt+Prs+Pl3+ConNeg: söögu
-#     sööma+V+Imprt+Prs+4+ConNeg: söödagu
-     sööma+V+Imprt+Prs+Sg3+Neg: söögu
-     sööma+V+Imprt+Prs+Pl1+Neg: söögem
-     sööma+V+Imprt+Prs+Pl2+Neg: sööge
-     sööma+V+Imprt+Prs+Pl3+Neg: söögu
-     sööma+V+Imprt+Prs+4+Neg: söödagu
+     sööma+V+Ind+Prt+Sg1+ConNeg: söönud
+     sööma+V+Ind+Prt+Sg2+ConNeg: söönud
+     sööma+V+Ind+Prt+Sg3+ConNeg: söönud
+     sööma+V+Ind+Prt+Pl1+ConNeg: söönud
+     sööma+V+Ind+Prt+Pl2+ConNeg: söönud
+     sööma+V+Ind+Prt+Pl3+ConNeg: söönud
+     sööma+V+Ind+Prt+4+ConNeg: söödud
+     # conditional mood
+     # present tense
+     #
      sööma+V+Cond+Prs+Sg1: sööksin
      sööma+V+Cond+Prs+Sg2: sööksid
      sööma+V+Cond+Prs+Sg3: sööks
@@ -58,6 +61,16 @@ Tests:
      sööma+V+Cond+Prs+Pl2: sööksite
      sööma+V+Cond+Prs+Pl3: sööksid
      sööma+V+Cond+Prs+4: söödaks
+     sööma+V+Cond+Prs+Sg1+ConNeg: sööks
+     sööma+V+Cond+Prs+Sg2+ConNeg: sööks
+     sööma+V+Cond+Prs+Sg3+ConNeg: sööks
+     sööma+V+Cond+Prs+Pl1+ConNeg: sööks
+     sööma+V+Cond+Prs+Pl2+ConNeg: sööks
+     sööma+V+Cond+Prs+Pl3+ConNeg: sööks
+     sööma+V+Cond+Prs+4+ConNeg: sööks
+     # conditional mood
+     # past tense
+     #
      sööma+V+Cond+Prt+Sg1: söönuksin
      sööma+V+Cond+Prt+Sg2: söönuksid
      sööma+V+Cond+Prt+Sg3: söönuks
@@ -65,8 +78,118 @@ Tests:
      sööma+V+Cond+Prt+Pl2: söönuksite
      sööma+V+Cond+Prt+Pl3: söönuksid
      sööma+V+Cond+Prt+4: sööduks
+     sööma+V+Cond+Prt+Sg1+ConNeg: söönuks
+     sööma+V+Cond+Prt+Sg2+ConNeg: söönuks
+     sööma+V+Cond+Prt+Sg3+ConNeg: söönuks
+     sööma+V+Cond+Prt+Pl1+ConNeg: söönuks
+     sööma+V+Cond+Prt+Pl2+ConNeg: söönuks
+     sööma+V+Cond+Prt+Pl3+ConNeg: söönuks
+     sööma+V+Cond+Prt+4+ConNeg: söödud
+     # imperative mood
+     #
+     sööma+V+Imprt+Sg2: söö
+     sööma+V+Imprt+Sg3: söögu
+     sööma+V+Imprt+Pl1: söögem
+     sööma+V+Imprt+Pl2: sööge
+     sööma+V+Imprt+Pl3: söögu
+     sööma+V+Imprt+4: söödagu
+     sööma+V+Imprt+Sg2+ConNeg: söö
+     sööma+V+Imprt+Sg3+ConNeg: söögu
+     sööma+V+Imprt+Pl1+ConNeg: söögem
+     sööma+V+Imprt+Pl2+ConNeg: sööge
+     sööma+V+Imprt+Pl3+ConNeg: söögu
+     sööma+V+Imprt+4+ConNeg: söödagu
+     # oblique mood
+     # Quo Jus
+     # not implemented in morphology yet
+     # 
+     # present tense
+     #
+     sööma+V+Quo+Prs+Sg1: söövat
+     sööma+V+Quo+Prs+Sg2: söövat
+     sööma+V+Quo+Prs+Sg3: söövat
+     sööma+V+Quo+Prs+Pl1: söövat
+     sööma+V+Quo+Prs+Pl2: söövat
+     sööma+V+Quo+Prs+Pl3: söövat
+     sööma+V+Quo+Prs+4: söödavat
+     sööma+V+Quo+Prs+Sg1+ConNeg: söövat
+     sööma+V+Quo+Prs+Sg2+ConNeg: söövat
+     sööma+V+Quo+Prs+Sg3+ConNeg: söövat
+     sööma+V+Quo+Prs+Pl1+ConNeg: söövat
+     sööma+V+Quo+Prs+Pl2+ConNeg: söövat
+     sööma+V+Quo+Prs+Pl3+ConNeg: söövat
+     sööma+V+Quo+Prs+4+ConNeg: söödavat
+     # oblique mood
+     # Quo Jus
+     # not implemented in morphology yet
+     # 
+     # past tense
+     #
+     sööma+V+Quo+Prt+Sg1: söönuvat
+     sööma+V+Quo+Prt+Sg2: söönuvat
+     sööma+V+Quo+Prt+Sg3: söönuvat
+     sööma+V+Quo+Prt+Pl1: söönuvat
+     sööma+V+Quo+Prt+Pl2: söönuvat
+     sööma+V+Quo+Prt+Pl3: söönuvat
+     sööma+V+Quo+Prt+4: söödud
+     sööma+V+Quo+Prt+Sg1+ConNeg: söönuvat
+     sööma+V+Quo+Prt+Sg2+ConNeg: söönuvat
+     sööma+V+Quo+Prt+Sg3+ConNeg: söönuvat
+     sööma+V+Quo+Prt+Pl1+ConNeg: söönuvat
+     sööma+V+Quo+Prt+Pl2+ConNeg: söönuvat
+     sööma+V+Quo+Prt+Pl3+ConNeg: söönuvat
+     sööma+V+Quo+Prt+4+ConNeg: söödud
+     # jussive mood
+     # Quo Jus
+     # not implemented in morphology yet
+     # 
+     # present tense
+     #
+     sööma+V+Quo+Prs+Sg1: söögu
+     sööma+V+Quo+Prs+Sg2: söögu
+     sööma+V+Quo+Prs+Sg3: söögu
+     sööma+V+Quo+Prs+Pl1: söögu
+     sööma+V+Quo+Prs+Pl2: söögu
+     sööma+V+Quo+Prs+Pl3: söögu
+     sööma+V+Quo+Prs+4: söödagu
+     sööma+V+Quo+Prs+Sg1+ConNeg: söögu
+     sööma+V+Quo+Prs+Sg2+ConNeg: söögu
+     sööma+V+Quo+Prs+Sg3+ConNeg: söögu
+     sööma+V+Quo+Prs+Pl1+ConNeg: söögu
+     sööma+V+Quo+Prs+Pl2+ConNeg: söögu
+     sööma+V+Quo+Prs+Pl3+ConNeg: söögu
+     sööma+V+Quo+Prs+4+ConNeg: söödagu
+     # jussive mood
+     # Quo Jus
+     # not implemented in morphology yet
+     # 
+     # past tense
+     #
+     sööma+V+Quo+Prt+Sg1: söönud
+     sööma+V+Quo+Prt+Sg2: söönud
+     sööma+V+Quo+Prt+Sg3: söönud
+     sööma+V+Quo+Prt+Pl1: söönud
+     sööma+V+Quo+Prt+Pl2: söönud
+     sööma+V+Quo+Prt+Pl3: söönud
+     sööma+V+Quo+Prt+4: söödud
+     sööma+V+Quo+Prt+Sg1+ConNeg: söönud
+     sööma+V+Quo+Prt+Sg2+ConNeg: söönud
+     sööma+V+Quo+Prt+Sg3+ConNeg: söönud
+     sööma+V+Quo+Prt+Pl1+ConNeg: söönud
+     sööma+V+Quo+Prt+Pl2+ConNeg: söönud
+     sööma+V+Quo+Prt+Pl3+ConNeg: söönud
+     sööma+V+Quo+Prt+4+ConNeg: söödud
+     #
+     # Infinitive
+     #
      sööma+V+Inf: süüa
      sööma+V+Sup: sööma
+     #
+     # Participle
+     #
+     sööma+V+PrsPrc: sööv
+     sööma+V+PrsPrc+4: söödav
+     
      
 
 # up to Verb main imper present second singular active afirmative
