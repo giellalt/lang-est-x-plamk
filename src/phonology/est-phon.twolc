@@ -79,13 +79,8 @@ Vx:0 <=> Vx: _ %> i ;
      where Vx in ( e ö o ä a ) ;
 
 "Front mid goes back"
-<<<<<<< .mine
 ö:õ <=> _ ö: %>: i ;
 
 ! Vowel raising dummy
 "Vowel raising dummy to Zero"
 %^RVws:0 <=> [ o:u | ö:ü ] _ %>: a ;
-
-=======
-ö:õ <=> _ ö: %>: i ;
->>>>>>> .r67960
