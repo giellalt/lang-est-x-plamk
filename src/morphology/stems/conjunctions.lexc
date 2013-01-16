@@ -1,5 +1,5 @@
 
 LEXICON conjunctions
 
-ja:ja CcTag  "and" ;
-kui:kui CsTag  "if" ;
+ja:ja CcTag  "ja" ;
+kui:kui CsTag  "jos" ;

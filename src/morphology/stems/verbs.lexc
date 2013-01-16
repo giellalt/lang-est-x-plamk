@@ -1,10 +1,4 @@
 
 LEXICON verbs
 
-sööma:söö V-sööma  "eat" ;
-jooma:joo V-sööma  "drink" ;
-tooma:too V-sööma  "bring" ;
-lööma:löö V-sööma  "beat"  ;
-pooma:poo V-sööma  "hang up"	;
-looma:loo V-sööma  "create"	;
-! sooma:soo V-sööma  "just testing"	;
+sööma:söö V-sööma  "syödä" ;
