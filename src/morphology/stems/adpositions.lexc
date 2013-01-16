@@ -1,5 +1,5 @@
 
 LEXICON adpositions
 
-all:all PoTag  "under" ;
-ilma:ilma PrepTag  "without" ;
+all:all PoTag  "alla" ;
+ilma:ilma PrepTag  "ilman" ;

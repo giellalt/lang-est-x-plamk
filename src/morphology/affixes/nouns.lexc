@@ -7,11 +7,13 @@ LEXICON N-hobune
 +N: N-hobune_01 ;
 
 LEXICON N-hobune_01
-+Sg+Nom:ne K ;
-+Sg+Gen:se K ;
-+Sg+Com:sega K ;
++Sg+Nom:ne	K	;
++Sg+Par: st	K	;
++Sg: se	 	Cases	;
+! !! Plural
 :se PLNOM ;
 :se PLPAR_id ;
++Pl:ste		Cases	;
 
 ! !koer:koera
 ! LEXICON N-koer
@@ -22,8 +24,21 @@ LEXICON N-hobune_01
 !  PLPAR_i ;
 
 LEXICON Cases
-+N+Sg+Nom:     # ;
-+N+Pl+Nom:d     #   ;
+! +N+Sg+Nom:     # ;
+! +N+Pl+Nom:d     #   ;
++Gen:		K	;
++Ill: sse	K	;
++Ine: s		K	;
++Ela: st	K	;	
++All: le	K	;	
++Ade: l		K	;
++Abl: lt	K	;
++Tra: ks	K	;
++Trm: ni	K	;
++Ess: na	K	;
++Abe: ta	K	;
++Com: ga 	K 	;
+
 
 LEXICON PLNOM
 +Pl+Nom:%>d K ;

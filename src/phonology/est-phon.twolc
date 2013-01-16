@@ -83,4 +83,4 @@ Vx:0 <=> Vx: _ %> i ;
 
 ! Vowel raising dummy
 "Vowel raising dummy to Zero"
-%^RVws:0 <=> [ o:u | ö:ü ] _ %>: a ;
+%^RVws:0 <=> [ o:u | ö:ü ] _ %>: [ a | e ] ;

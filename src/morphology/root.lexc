@@ -49,6 +49,9 @@ Multichar_Symbols
  +Sg +Pl
  +Ess +Nom +Gen +Acc +Ill +Ine +Ela +All +Ade +Abl +Tra +Par
  +Exe +Instr +Com +Ins +Prl
+ +Trm ! terminatiiv (-ni)
+ +Abe ! abessiiv
+
 
 !! The possession is marked as such:
  +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
@@ -62,6 +65,7 @@ Multichar_Symbols
 !!VERB
 !! Verb moods are:
  +Ind +Prs +Prt +Pot +Cond +Imprt
+
 !! Verb personal forms are:
  +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
 !! Other verb forms are
