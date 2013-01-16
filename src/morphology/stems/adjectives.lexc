@@ -2,3 +2,5 @@
 LEXICON adjectives
 
 punane:puna A-punane  "punainen" ;
+sinine:sini  A-punane  "sininen" ;
+kollane:kolla A-punane  "keltainen" ;
