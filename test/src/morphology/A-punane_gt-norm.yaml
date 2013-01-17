@@ -1,0 +1,53 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+  Noun - punane: # Noun 'horse' - full paradigm
+     # according to Eesti keele käsiraamat
+     # http://www.eki.ee/books/ekk09/
+     # -----------------------------------------
+     #
+     # Singular
+     #
+     punane+A+Sg+Nom: punane
+     punane+A+Sg+Gen: punase
+     punane+A+Sg+Par: punast
+     punane+A+Sg+Ill: punasesse
+     punane+A+Sg+Ine: punases
+     punane+A+Sg+Ela: punasest
+     punane+A+Sg+All: punasele
+     punane+A+Sg+Ade: punasel
+     punane+A+Sg+Abl: punaselt
+     punane+A+Sg+Tra: punaseks
+     punane+A+Sg+Trm: punaseni
+     punane+A+Sg+Ess: punasena
+     punane+A+Sg+Abe: punaseta
+     punane+A+Sg+Com: punasega
+     #
+     # Plural
+     #
+     punane+A+Pl+Nom: punased
+     punane+A+Pl+Gen: punaste
+     punane+A+Pl+Par: punaseid
+     punane+A+Pl+Ill: punastesse
+     punane+A+Pl+Ine: punastes
+     punane+A+Pl+Ela: punastest
+     punane+A+Pl+All: punastele
+     punane+A+Pl+Ade: punastel
+     punane+A+Pl+Abl: punastelt
+     punane+A+Pl+Tra: punasteks
+     punane+A+Pl+Trm: punasteni
+     punane+A+Pl+Ess: punastena
+     punane+A+Pl+Abe: punasteta
+     punane+A+Pl+Com: punastega   
