@@ -1,8 +1,8 @@
-!! Verbs
-!! -----
-!! Verbs in UNDEFINED language are actions.
 
 LEXICON verbs
-sööma:söö    V-sööma   ;
 
-! vim: set ft=xfst-lexc:
+sööma:söö V-sööma  "syödä" ;
+jooma:joo V-sööma  	   ;
+lööma:löö V-sööma  	   ;
+looma:loo  V-sööma  	   ;
+tooma:too  V-sööma  	   ;
