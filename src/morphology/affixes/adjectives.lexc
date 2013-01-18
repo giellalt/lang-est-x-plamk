@@ -5,11 +5,14 @@
 
 LEXICON A-punane
 +A: N-hobune_01 ;
-+A:sem Comparison ;
++A:sem Comparative ;
 
-LEXICON Comparison
-+Comp+Sg+Nom:       K   ;
-
-
+LEXICON Comparative
++Comp+Sg+Nom:       K		;
++Comp+Sg+Par:at	    K		;
++Comp+Sg:a	    Cases    	;
++Comp+Pl+Nom:ad	    K		;
++Comp+Pl+Par:aid    K		;
++Comp+Pl:ate	    Cases	;
 ! vim: set ft=xfst-lexc:
 
