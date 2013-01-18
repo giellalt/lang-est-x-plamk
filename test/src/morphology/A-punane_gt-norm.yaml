@@ -51,3 +51,71 @@ Tests:
      punane+A+Pl+Ess: punastena
      punane+A+Pl+Abe: punasteta
      punane+A+Pl+Com: punastega   
+     #
+     # Comparative Singular
+     #
+     punane+A+Comp+Sg+Nom: punasem
+     punane+A+Comp+Sg+Gen: punasema
+     punane+A+Comp+Sg+Par: punasemat
+     punane+A+Comp+Sg+Ill: punasemasse
+     punane+A+Comp+Sg+Ine: punasemas
+     punane+A+Comp+Sg+Ela: punasemast
+     punane+A+Comp+Sg+All: punasemale
+     punane+A+Comp+Sg+Ade: punasemal
+     punane+A+Comp+Sg+Abl: punasemalt
+     punane+A+Comp+Sg+Tra: punasemaks
+     punane+A+Comp+Sg+Trm: punasemani
+     punane+A+Comp+Sg+Ess: punasemana
+     punane+A+Comp+Sg+Abe: punasemata
+     punane+A+Comp+Sg+Com: punasemaga
+     #
+     # Comparative Plural
+     #
+     punane+A+Comp+Pl+Nom: punasemad
+     punane+A+Comp+Pl+Gen: punasemate
+     punane+A+Comp+Pl+Par: punasemaid
+     punane+A+Comp+Pl+Ill: punasematesse
+     punane+A+Comp+Pl+Ine: punasemates
+     punane+A+Comp+Pl+Ela: punasematest
+     punane+A+Comp+Pl+All: punasematele
+     punane+A+Comp+Pl+Ade: punasematel
+     punane+A+Comp+Pl+Abl: punasematelt
+     punane+A+Comp+Pl+Tra: punasemateks
+     punane+A+Comp+Pl+Trm: punasemateni
+     punane+A+Comp+Pl+Ess: punasematena
+     punane+A+Comp+Pl+Abe: punasemateta
+     punane+A+Comp+Pl+Com: punasematega   
+     #
+     # Superlative Singular
+     #
+     punane+A+Superl+Sg+Nom: punaseim
+     punane+A+Superl+Sg+Gen: punaseima
+     punane+A+Superl+Sg+Par: punaseimat
+     punane+A+Superl+Sg+Ill: punaseimasse
+     punane+A+Superl+Sg+Ine: punaseimas
+     punane+A+Superl+Sg+Ela: punaseimast
+     punane+A+Superl+Sg+All: punaseimale
+     punane+A+Superl+Sg+Ade: punaseimal
+     punane+A+Superl+Sg+Abl: punaseimalt
+     punane+A+Superl+Sg+Tra: punaseimaks
+     punane+A+Superl+Sg+Trm: punaseimani
+     punane+A+Superl+Sg+Ess: punaseimana
+     punane+A+Superl+Sg+Abe: punaseimata
+     punane+A+Superl+Sg+Com: punaseimaga
+     #
+     # Superlative Plural
+     #
+     punane+A+Superl+Pl+Nom: punaseimad
+     punane+A+Superl+Pl+Gen: punaseimate
+     punane+A+Superl+Pl+Par: punaseimaid
+     punane+A+Superl+Pl+Ill: punaseimatesse
+     punane+A+Superl+Pl+Ine: punaseimates
+     punane+A+Superl+Pl+Ela: punaseimatest
+     punane+A+Superl+Pl+All: punaseimatele
+     punane+A+Superl+Pl+Ade: punaseimatel
+     punane+A+Superl+Pl+Abl: punaseimatelt
+     punane+A+Superl+Pl+Tra: punaseimateks
+     punane+A+Superl+Pl+Trm: punaseimateni
+     punane+A+Superl+Pl+Ess: punaseimatena
+     punane+A+Superl+Pl+Abe: punaseimateta
+     punane+A+Superl+Pl+Com: punaseimatega   
