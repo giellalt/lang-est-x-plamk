@@ -1,5 +1,7 @@
 
 LEXICON conjunctions
 
-ja:ja CcTag  "ja" ;
-kui:kui CsTag  "jos" ;
+ja:ja CcTag  "ja"	;
+ning:ning    CcTag	;
+kui:kui CsTag  "jos" 	;
+et	CsTag  	     	;
