@@ -2,6 +2,8 @@
 
 These pages document our Estonian parser.
 
+* [Links to generated source file documentation|Links.html]
+
 !!! Source files
 *   [stems|https://victorio.uit.no/langtech/trunk/langs/est/src/morphology/stems/]   
   / [affixes|https://victorio.uit.no/langtech/trunk/langs/est/src/morphology/affixes/] 
