@@ -2,6 +2,9 @@
 !! ---------------
 !! Verbs in the Estonian language inflect for number and persons.
 
+LEXICON V-olema
++V+Ind+Prs:   normpöörded   ;
+
 LEXICON V-sööma
 !!+Ind+Prs
 +V+Ind+Prs:   normpöörded   ;
