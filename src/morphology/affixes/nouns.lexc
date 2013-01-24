@@ -1,16 +1,31 @@
-!! Noun inflection
-!! ---------------
+!! !!!Noun inflection
+!  ---------------
 !! Nouns in the Estonian language inflect for case and number.
 
-!hobune:hobu
 LEXICON N-hobune
+!hobune:hobu
+
 +N: N-hobune_01 ;
+
+! # Noun 'horse' - full paradigm
+! # according to Eesti keele käsiraamat
+! # http://www.eki.ee/books/ekk09/
+! # -----------------------------------------
+! #
+! # Singular
+! #
+
+!!€fst-norm: Noun - hobune # Noun 'horse'
+!!€ hobune    hobune+N+Sg+Nom
+!!€ hobuse    hobune+N+Sg+Gen
+!!€ hobust    hobune+N+Sg+Par
+!!€ hobusesse hobune+N+Sg+Ill
 
 LEXICON N-hobune_01
 +Sg+Nom:ne	K	;
 +Sg+Par: st	K	;
 +Sg: se	 	Cases	;
-! !! Plural
+! ! !Plural
 :se PLNOM ;
 :se PLPAR_id ;
 +Pl:ste		Cases	;
