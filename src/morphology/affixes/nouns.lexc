@@ -15,7 +15,7 @@ LEXICON N-hobune
 ! # Singular
 ! #
 
-!!€fst-norm: Noun - hobune # Noun 'horse'
+!!€gt-norm: Noun - hobune # Noun 'horse'
 !!€ hobune    hobune+N+Sg+Nom
 !!€ hobuse    hobune+N+Sg+Gen
 !!€ hobust    hobune+N+Sg+Par
