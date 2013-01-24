@@ -22,25 +22,19 @@ Tests:
     #
     olema+V+Ind+Prs+Sg1:        olen
     olema+V+Ind+Prs+Sg2:        oled
-    olema+V+Ind+Prs+Sg3:        on
+    olema+V+Ind+Prs+Sg3:        "on"
     olema+V+Ind+Prs+Pl1:        oleme
     olema+V+Ind+Prs+Pl2:        olete
-    olema+V+Ind+Prs+Pl3:        on
+    olema+V+Ind+Prs+Pl3:        "on"
     olema+V+Ind+Prs+4:          ollakse
-    olema+V+Ind+Prs+Sg1+ConNeg: ole
-    olema+V+Ind+Prs+Sg2+ConNeg: ole
-    olema+V+Ind+Prs+Sg3+ConNeg: ole
-    olema+V+Ind+Prs+Pl1+ConNeg: ole
-    olema+V+Ind+Prs+Pl2+ConNeg: ole
-    olema+V+Ind+Prs+Pl3+ConNeg: ole
-    olema+V+Ind+Prs+4+ConNeg:   olda
-    olema+V+Ind+Prs+Sg1+ConNeg: pole
-    olema+V+Ind+Prs+Sg2+ConNeg: pole
-    olema+V+Ind+Prs+Sg3+ConNeg: pole
-    olema+V+Ind+Prs+Pl1+ConNeg: pole
-    olema+V+Ind+Prs+Pl2+ConNeg: pole
-    olema+V+Ind+Prs+Pl3+ConNeg: pole
-    olema+V+Ind+Prs+4+ConNeg:   polda
+    olema+V+Ind+Prs+Sg1+ConNeg: [ole, pole]
+    olema+V+Ind+Prs+Sg2+ConNeg: [ole, pole]
+    olema+V+Ind+Prs+Sg3+ConNeg: [ole, pole]
+    olema+V+Ind+Prs+Pl1+ConNeg: [ole, pole]
+    olema+V+Ind+Prs+Pl2+ConNeg: [ole, pole]
+    olema+V+Ind+Prs+Pl3+ConNeg: [ole, pole]
+    olema+V+Ind+Prs+4+ConNeg:   [olda, polda]
+    #
     # indicative mood
     # past tense
     #
@@ -51,20 +45,14 @@ Tests:
     olema+V+Ind+Prt+Pl2:        olite
     olema+V+Ind+Prt+Pl3:        olid
     olema+V+Ind+Prt+4:          oldi
-    olema+V+Ind+Prt+Sg1+ConNeg: olnud
-    olema+V+Ind+Prt+Sg2+ConNeg: olnud
-    olema+V+Ind+Prt+Sg3+ConNeg: olnud
-    olema+V+Ind+Prt+Pl1+ConNeg: olnud
-    olema+V+Ind+Prt+Pl2+ConNeg: olnud
-    olema+V+Ind+Prt+Pl3+ConNeg: olnud
-    olema+V+Ind+Prt+4+ConNeg:   oldud
-    olema+V+Ind+Prt+Sg1+ConNeg: polnud
-    olema+V+Ind+Prt+Sg2+ConNeg: polnud
-    olema+V+Ind+Prt+Sg3+ConNeg: polnud
-    olema+V+Ind+Prt+Pl1+ConNeg: polnud
-    olema+V+Ind+Prt+Pl2+ConNeg: polnud
-    olema+V+Ind+Prt+Pl3+ConNeg: polnud
-    olema+V+Ind+Prt+4+ConNeg:   poldud
+    olema+V+Ind+Prt+Sg1+ConNeg: [olnud, polnud]
+    olema+V+Ind+Prt+Sg2+ConNeg: [olnud, polnud]
+    olema+V+Ind+Prt+Sg3+ConNeg: [olnud, polnud]
+    olema+V+Ind+Prt+Pl1+ConNeg: [olnud, polnud]
+    olema+V+Ind+Prt+Pl2+ConNeg: [olnud, polnud]
+    olema+V+Ind+Prt+Pl3+ConNeg: [olnud, polnud]
+    olema+V+Ind+Prt+4+ConNeg:   [oldud, poldud
+    #
     # conditional mood
     # present tense
     #
