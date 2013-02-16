@@ -1,5 +1,5 @@
 !! !!!Noun inflection
-!  ---------------
+
 !! Nouns in the Estonian language inflect for case and number.
 
 LEXICON N-hobune
@@ -25,12 +25,12 @@ LEXICON N-hobune_01
 +Sg+Nom:ne	K	;
 +Sg+Par: st	K	;
 +Sg: se	 	Cases	;
-! ! !Plural
+! !Plural
 :se PLNOM ;
 :se PLPAR_id ;
 +Pl:ste		Cases	;
 
-! !koer:koera
+! koer:koera
 ! LEXICON N-koer
 ! +Sg+Nom:0 # ;
 ! +Sg+Gen:a # ;
