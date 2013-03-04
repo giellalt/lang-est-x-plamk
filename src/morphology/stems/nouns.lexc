@@ -1,7 +1,4 @@
 
 LEXICON nouns
 
-hobune:hobu N-hobune  "hevonen" ;
-rebane:reba N-hobune  "kettu" ;
-inimene:inime N-hobune  "ihminen" ;
-naine:nai N-hobune  "nainen" ; 
+hobune:hobu N-hobune  "" ;
