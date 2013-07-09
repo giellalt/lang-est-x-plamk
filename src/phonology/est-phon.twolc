@@ -1,6 +1,6 @@
-!! ================================================ !
-!! The Estonian morphophonological/twolc rules file !
-!! ================================================ !
+
+!! !!!The Estonian morphophonological/twolc rules file 
+
 
 
 Alphabet
@@ -59,6 +59,7 @@ Rules
 ! Vowel raising
 !sööma:süüa, jooma:juua
 "Vowel raising ö:ü, o:u in Inf"
+!! __@RULENAME@__ 
 Vx:Vy <=> _     Vx:Vy %^RVws:0 %>: [ a | e ]  ;
 		  Vx:Vy _  %^RVws:0 %>: [ a | e ] ;
           where Vx in ( ö o )
@@ -67,20 +68,25 @@ Vx:Vy <=> _     Vx:Vy %^RVws:0 %>: [ a | e ]  ;
 
 ! Vowel loss
 "Vowel to 0"
+!! __@RULENAME@__ 
 Vx:0 <=> Vx: _ %> [ %^Pli: | %^Prti: ] ;
          where Vx in ( a ä o ö) ;
 
 "Vowel change"
+!! __@RULENAME@__ 
 Vx:õ <=> _ Vx: %>: %^Prti: ;
      where Vx in ( o ö ) ;
 
 "Long vowel shortening"
+!! __@RULENAME@__ 
 Vx:0 <=> Vx: _ %> i ;
      where Vx in ( e ö o ä a ) ;
 
 "Front mid goes back"
+!! __@RULENAME@__ 
 ö:õ <=> _ ö: %>: i ;
 
 ! Vowel raising dummy
 "Vowel raising dummy to Zero"
+!! __@RULENAME@__ 
 %^RVws:0 <=> [ o:u | ö:ü ] _ %>: [ a | e ] ;
