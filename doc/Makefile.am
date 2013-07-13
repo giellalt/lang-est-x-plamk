@@ -10,12 +10,12 @@
 if CAN_DOCC
 
 JSP_PAGES=root-morphology.jspwiki  \
-		  est-phon-phonology.jspwiki \
-		  nouns-affixes.jspwiki \
 		  adjectives-affixes.jspwiki       \
-		  propernouns-affixes.jspwiki      \
+		  nouns-affixes.jspwiki \
 		  pronouns-stems.jspwiki           \
-		  verbs-affixes.jspwiki
+		  propernouns-affixes.jspwiki      \
+		  verbs-affixes.jspwiki \
+		  est-phon-phonology.jspwiki 
 # pronouns-stems.jspwiki           \
 # clitics-morphology.jspwiki       \
 # compounding-morphology.jspwiki   \
