@@ -12,7 +12,6 @@ if CAN_DOCC
 JSP_PAGES=root-morphology.jspwiki  \
 		  adjectives-affixes.jspwiki       \
 		  nouns-affixes.jspwiki \
-		  pronouns-stems.jspwiki           \
 		  propernouns-affixes.jspwiki      \
 		  verbs-affixes.jspwiki \
 		  est-phon-phonology.jspwiki 
