@@ -161,7 +161,7 @@ LEXICON 29DAYS
 8:gaaktsede				    B ;
 9:åktsede				    B ;
 1%0:låhkede				    B ;
-11:luhkievoestes		    B ;
+11:üksteistkümnes		    B ;
 12:luhkiemubpie			    B ;
 13:luhkiegåalmede		    B ;
 14:luhkienjealjede		    B ;
@@ -171,7 +171,7 @@ LEXICON 29DAYS
 18:luhkiegaaktsede		    B ;
 19:luhkieåktsede		    B ;
 2%0:gööktelåhkede		    B ;
-21:göökteluhkievoestes	    B ;
+21:kahekümne% esimene       B ;
 22:göökteluhkiemubpie	    B ;
 23:göökteluhkiegåalmede	    B ;
 24:göökteluhkienjealjede    B ;
@@ -190,7 +190,8 @@ LEXICON 31DAYS
 30DAYS ;
 
 LEXICON B
-%.:% biejjie  MONTH ;
+!%.:% biejjie  MONTH ;
+%.:%   MONTH ; !!= @CODE@ 
 
 LEXICON MONTH
    1@U.MONTH.1@:@U.MONTH.1@   X ;
