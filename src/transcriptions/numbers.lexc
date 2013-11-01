@@ -305,29 +305,26 @@ CARDINAL ;
 ORDINAL ;
 
 LEXICON CARDINAL
-akte:1 COMMA ;
-göökte:2 COMMA ;
-golme:3 COMMA ;
-njieljie:4 COMMA ;
-njielje+Use/NG:4 COMMA ;
-nieljie+Use/NG:4 COMMA ;  
-nielje+Use/NG:4 COMMA ; 
-vïjhte:5 COMMA ;
-govhte:6 COMMA ;
-tjïjhtje:7 COMMA ;
-gaektsie:8 COMMA ;
-uktsie:9 COMMA ;
+üks:1 COMMA ;
+kaks:2 COMMA ;
+kolm:3 COMMA ;
+neli:4 COMMA ;
+viis:5 COMMA ;
+kuus:6 COMMA ;
+seitse:7 COMMA ;
+kaheksa:8 COMMA ;
+üheksa:9 COMMA ;
 
 LEXICON ORDINAL
-voestes:1%.     COMMA ;
-mubpie:2%.   COMMA ;
-gåalmede:3%.   COMMA ;
-njealjede:4%. COMMA ;
-vïjhtede:5%.   COMMA ;
-govhtede:6%.   COMMA ;
-tjïjhtjede:7%.    COMMA ;
-gaaktsede:8%.   COMMA ;
-åktsede:9%.    COMMA ;
+esimene:1%.     COMMA ;
+teine:2%.   COMMA ;
+kolmas:3%.   COMMA ;
+neljas:4%. COMMA ;
+viies:5%.   COMMA ;
+kuues:6%.   COMMA ;
+seitmes:7%.    COMMA ;
+kaheksas:8%.   COMMA ;
+üheksas:9%.    COMMA ;
 
 LEXICON COMMA
  ENDLEX ;
