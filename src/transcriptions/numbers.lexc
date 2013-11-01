@@ -19,13 +19,13 @@ Multichar_Symbols
   +NumNum    ! Tag to denote real numbers in one form or another
 
 LEXICON Root
-< %+String [a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|q|y|z|æ|ø|å|ä|ö|á|č|đ|ŋ|A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z|Æ|Ø|Å|Ä|Ö|Á|Č|Đ|Ŋ|Š|Ŧ|Ž]* > COMMA ; ! This first line is to allow all letter strings.
+< %+String [a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|q|y|z|õ|ä|ö|ü|A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z|Õ|Ä|Ö|Ü]* > COMMA ; ! This first line is to allow all letter strings.
 +NumNum NUMBERSECTION ;
 +NumNum COMMASECTION ;
 
 LEXICON NUMBERSECTION
 HUNDREDSM ;		! 200M
-tjuetie:1 HUNDREDM ;	! 100M
+sada:1 HUNDREDM ;	! 100M
 stoereluhkie+Use/NG:1 HUNDREDM ;	! 100M
 stoerreluhkie+Use/NG:1 HUNDREDM ;	! 100M
 TENSM ;			! 20-99M
@@ -61,18 +61,22 @@ stoereluhkie: HUNDREDM ;
 stoerreluhkie: HUNDREDM ;
 
 LEXICON HUNDREDM
-      TENSM ;
-      TEENSM ;
-:%0   ONESM ;
-:%0%0 MILJON ;
+% :      TENSM ;
+% :      TEENM ;
+% :%0   ONESM ;
+% :%0%0 MILJON ;
 
-LEXICON TEENSM
-luhkie:1 TEENM ;
+!LEXICON TEENSM
+!lohkie:1 LOHKAIM ;
+
+LEXICON TEENSM-OLD
+  LOHKAIM ;
+kümmend+Use/NG:  LOHKAIM ; !!= @CODE@ Analyzed but not generated
 
 LEXICON TEENM
-akte:1     LOHKAIM ;
-göökte:2   LOHKAIM ;
-golme:3    LOHKAIM ;
+üksteist:11     TEENSM-OLD ;
+kaksteist:12   TEENSM-OLD ;
+kolmteist:13    TEENSM-OLD ;
 njieljie:4 LOHKAIM ;
 njielje+Use/NG:4  LOHKAIM ;
 nieljie+Use/NG:4  LOHKAIM ;
