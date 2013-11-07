@@ -26,45 +26,53 @@ LEXICON Root
 LEXICON NUMBERSECTION
 HUNDREDSM ;		! 200M
 sada:1 HUNDREDM ;	! 100M
-stoereluhkie+Use/NG:1 HUNDREDM ;	! 100M
-stoerreluhkie+Use/NG:1 HUNDREDM ;	! 100M
+!stoereluhkie+Use/NG:1 HUNDREDM ;	! 100M
+!stoerreluhkie+Use/NG:1 HUNDREDM ;	! 100M
 TENSM ;			! 20-99M
 TEENSM ;		! 10-19M
 ONESM ;			! 1-9M
 HUNDREDST ;		! 200000-999999
-tjuetie:1 HUNDREDT ;	! 100000-100999
+sada:1 HUNDREDT ;	! 100000-100999
 TENST ;			! 20000-99999,10000-10999
 TEENST ;		! 11000-19999
 ONEST ;			! 2000-9999
-tåvsene:1 THOUSAND ;	! 1000-1999
+tuhat:1 THOUSAND ;	! 1000-1999
 UNDERTHOUSAND ;		! 100-999
 TENS ;			! 20-99
 TEENS ;			! 10-19
 ONES ;			! 1-9
+ZERO ;          	! 0
 
 LEXICON HUNDREDSM
-göökte:2  CUODIM ;
-golme:3 CUODIM ;
-njieljie:4 CUODIM ; ! Google: 459
-njielje+Use/NG:4 CUODIM ;  ! Google: 218
-nieljie+Use/NG:4 CUODIM ;  ! Google:  61
- nielje+Use/NG:4 CUODIM ;  ! Google: irrelevant (20,600)
-vïjhte:5 CUODIM ;
-govhte:6 CUODIM ;
-tjïjhtje:7 CUODIM ;
-gaektsie:8 CUODIM ;
-uktsie:9 CUODIM ;
+kaks:2  CUODIM ;
+kolm:3 CUODIM ;
+neli:4 CUODIM ; 
+viis:5 CUODIM ;
+kuus:6 CUODIM ;
+seitse:7 CUODIM ;
+kaheksa:8 CUODIM ;
+üheksa:9 CUODIM ;
 
 LEXICON CUODIM
-tjuetie: HUNDREDM ;
-stoereluhkie: HUNDREDM ;
-stoerreluhkie: HUNDREDM ;
+sada: HUNDREDM ;
+!stoereluhkie: HUNDREDM ;
+!stoerreluhkie: HUNDREDM ;
+
+! LEXICON HUNDREDM
+! % :      TENSM ;
+! % :      TEENM ;
+! % :%0   ONESM ;
+! % :%0%0 MILJON ;
 
 LEXICON HUNDREDM
-% :      TENSM ;
-% :      TEENM ;
-% :%0   ONESM ;
-% :%0%0 MILJON ;
+TENM ;
+TENSM ;
+TEENSM ;
+:%0 ONESM ;
+:%0%0 MILJON ;
+
+LEXICON TEENSM
+:1 TEENM ;
 
 !LEXICON TEENSM
 !lohkie:1 LOHKAIM ;
@@ -74,35 +82,29 @@ LEXICON TEENSM-OLD
 kümmend+Use/NG:  LOHKAIM ; !!= @CODE@ Analyzed but not generated
 
 LEXICON TEENM
-üksteist:11     TEENSM-OLD ;
-kaksteist:12   TEENSM-OLD ;
-kolmteist:13    TEENSM-OLD ;
-njieljie:4 LOHKAIM ;
-njielje+Use/NG:4  LOHKAIM ;
-nieljie+Use/NG:4  LOHKAIM ;
- nielje+Use/NG:4  LOHKAIM ;
-vïjhte:5   LOHKAIM ;
-govhte:6   LOHKAIM ;
-tjïjhtje:7 LOHKAIM ;
-gaektsie:8 LOHKAIM ;
-uktsie:9   LOHKAIM ;
+üks:1 LOHKAIM ;
+kaks:2 LOHKAIM ;
+kolm:3 LOHKAIM ;
+neli:4 LOHKAIM ;
+viis:5 LOHKAIM ;
+kuus:6 LOHKAIM ;
+seitse:7 LOHKAIM ;
+kaheksa:8 LOHKAIM ;
+üheksa:9 LOHKAIM ;
 
 LEXICON LOHKAIM
-MILJON ;
+teist: MILJON ;
 
 LEXICON TENSM
-luhkie:1%0 MILJON ;
-göökte:2   LUHKIEM ;
-golme:3    LUHKIEM ;
-njieljie:4 LUHKIEM ;
-njielje+Use/NG:4  LUHKIEM ;
-nieljie+Use/NG:4  LUHKIEM ;
- nielje+Use/NG:4  LUHKIEM ;
-vïjhte:5   LUHKIEM ;
-govhte:6   LUHKIEM ;
-tjïjhtje:7 LUHKIEM ;
-gaektsie:8 LUHKIEM ;
-uktsie:9   LUHKIEM ;
+kaks:2 LÅGEVM ;
+kolm:3 LÅGEVM ;
+neli:4 LÅGEVM ;
+viis:5 LÅGEVM ;
+kuus:6 LÅGEVM ;
+seitse:7 LÅGEVM ;
+kaheksa:8 LÅGEVM ;
+üheksa:9 LÅGEVM ;
+
 
 LEXICON LUHKIEM
 luhkie:%0 MILJON ;
