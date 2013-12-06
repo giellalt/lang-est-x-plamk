@@ -22,10 +22,10 @@ Tests:
      #
      olema+V+Ind+Prs+Sg1: olen
      olema+V+Ind+Prs+Sg2: oled
-     olema+V+Ind+Prs+Sg3: "on"
+     olema+V+Ind+Prs+Sg3: 'on'
      olema+V+Ind+Prs+Pl1: oleme
      olema+V+Ind+Prs+Pl2: olete
-     olema+V+Ind+Prs+Pl3: "on"
+     olema+V+Ind+Prs+Pl3: 'on'
      olema+V+Ind+Prs+4: ollakse
      olema+V+Ind+Prs+Sg1+ConNeg: ole
      olema+V+Ind+Prs+Sg2+ConNeg: ole
