@@ -30,11 +30,11 @@ LEXICON N-hobune_01
 
 LEXICON N-redel_01
 +Sg+Nom:	K	;
-+Sg+Par: t	K	;
++Sg+Par: it	K	;
 +Sg: i	 	Cases	;
 ! !Plural
-:se PLNOM ;
-:se PLPAR_id ;
+:i PLNOM ;
+:e PLPAR_id ;
 +Pl:ite		Cases	;
 
 ! koer:koera
