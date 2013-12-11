@@ -20,44 +20,22 @@ GT_LEXC_ROOT=root.lexc
 
 # Set this to the names of all other source lexc files
 GT_LEXC_SRCS=\
-			 stems/abbr.lexc \
-			 stems/acro.lexc \
-			 stems/punct.lexc \
 			 affixes/adjectives.lexc \
 			 affixes/nouns.lexc \
-			 affixes/pronouns.lexc \
 			 affixes/propernouns.lexc \
-			 affixes/verbs.lexc
+			 affixes/verbs.lexc \
+			 stems/adjectives.lexc \
+			 stems/nouns.lexc \
+			 stems/numerals.lexc \
+			 stems/prefixes.lexc \
+			 stems/pronouns.lexc \
+			 stems/verbs.lexc
 
 # Set this to the names of all generated lexc files, if any
-GENERATED_LEXC_SRCS=\
-			 stems/adjectives.lexc \
-			 stems/adpositions.lexc \
-			 stems/adverbs.lexc \
-			 stems/conjunctions.lexc \
-			 stems/interjections.lexc \
-			 stems/nouns.lexc \
-			 stems/particles.lexc \
-			 stems/pronouns.lexc \
-			 stems/propernouns.lexc \
-			 stems/quantifiers.lexc \
-			 stems/verbs.lexc 
-
+GENERATED_LEXC_SRCS=
 
 # Set this to the names of all source xml files, if any
-GT_XML_SRCS=\
-			 stems/adjectives.xml \
-			 stems/adpositions.xml \
-			 stems/adverbs.xml \
-			 stems/conjunctions.xml \
-			 stems/interjections.xml \
-			 stems/nouns.xml \
-			 stems/particles.xml \
-			 stems/pronouns.xml \
-			 stems/propernouns.xml \
-			 stems/quantifiers.xml \
-			 stems/verbs.xml 
-
+GT_XML_SRCS=
 
 include $(top_srcdir)/am-shared/lexc-include.am
 

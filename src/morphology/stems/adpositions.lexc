@@ -1,5 +1,0 @@
-
-LEXICON adpositions
-
-all:all PoTag  "" ;
-ilma:ilma PrepTag  "" ;

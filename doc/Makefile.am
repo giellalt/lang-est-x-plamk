@@ -9,13 +9,7 @@
 
 if CAN_DOCC
 
-JSP_PAGES=root-morphology.jspwiki  \
-		  adjectives-affixes.jspwiki       \
-		  nouns-affixes.jspwiki \
-		  propernouns-affixes.jspwiki      \
-		  verbs-affixes.jspwiki \
-		  est-phon-phonology.jspwiki 
-# pronouns-stems.jspwiki           \
+JSP_PAGES=root-morphology.jspwiki
 # clitics-morphology.jspwiki       \
 # compounding-morphology.jspwiki   \
 # abbreviations-stems.jspwiki      \
@@ -37,6 +31,11 @@ JSP_PAGES=root-morphology.jspwiki  \
 # subjunctions-stems.jspwiki       \
 # verbs-stems.jspwiki              \
 # adjectives-oahpa-affixes.jspwiki \
+# adjectives-affixes.jspwiki       \
+# nouns-affixes.jspwiki            \
+# propernouns-affixes.jspwiki      \
+# verbs-affixes.jspwiki
+
 ALLINONE_JSP_PAGE=$(GTLANG).jspwiki
 
 LINKS=Links.jspwiki
