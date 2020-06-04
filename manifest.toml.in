@@ -1,0 +1,9 @@
+name = "Estonian"
+version = "@SPELLERVERSION@"
+
+[macos]
+system_pkg_id = "no.divvun.MacDivvun.et"
+
+[windows]
+system_product_code = "DE6DFE09-6430-401F-AF78-31CA36478831"
+msoffice_product_code = "378DB650-5AEB-406F-8C0D-AAA3D0FB800A"
