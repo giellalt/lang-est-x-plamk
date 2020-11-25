@@ -180,7 +180,7 @@ num_final.tmp1.xfst: fst/num_final.tmp.xfst \
 # upcase names:
 # upcase both the lexical and the surface side
 fst/guesser.tmp.hfst: fst/guesser.tmp0.hfst filters/upcase-guessed_proper-strings.est.hfst
-	$(AM_V_XFST)$(PRINTF) "set flag-is-epsilon OFF\n\
+	$(AM_V_XFST_TOOL)$(PRINTF) "set flag-is-epsilon OFF\n\
 			read regex                         \
 			@\"filters/upcase-guessed_proper-strings.est.hfst\".i       \
 			.o. @\"$<\"   \
@@ -194,7 +194,7 @@ fst/guesser.tmp.hfst: fst/guesser.tmp0.hfst filters/upcase-guessed_proper-string
 # HFST:
 # a transducer for blabla- and Blabla-
 guesser-smth.hfst: fst/guesser-smth.xfscript
-	$(AM_V_XFST)$(PRINTF) "set flag-is-epsilon ON\n\
+	$(AM_V_XFST_TOOL)$(PRINTF) "set flag-is-epsilon ON\n\
 			source $<   \
 			\n\
 		 save stack $@\n\
@@ -344,7 +344,7 @@ redundant_numerals.%: num_final.tmp.% num_initial.tmp.%
 # HFST:
 generator-wordpairs-raw.simple.hfst: redundant_wordpairs.hfst \
 					$(EST_WORDPAIR_FILTERS:%=%.hfst)
-	$(AM_V_XFST)$(PRINTF) "set flag-is-epsilon ON\n\
+	$(AM_V_XFST_TOOL)$(PRINTF) "set flag-is-epsilon ON\n\
 			read regex                         \
 			$(EST_WORDPAIR_FILTERS:%=@\"%.hfst\" .o.)    \
 			@\"$<\"                                       \
@@ -354,7 +354,7 @@ generator-wordpairs-raw.simple.hfst: redundant_wordpairs.hfst \
 
 generator-numerals-raw.simple.hfst: redundant_numerals.hfst \
 					$(EST_NUMERAL_FILTERS:%=%.hfst)
-	$(AM_V_XFST)$(PRINTF) "set flag-is-epsilon ON\n\
+	$(AM_V_XFST_TOOL)$(PRINTF) "set flag-is-epsilon ON\n\
 			read regex                         \
 			$(EST_NUMERAL_FILTERS:%=@\"%.hfst\" .o.)    \
 			@\"$<\"                                       \
@@ -365,7 +365,7 @@ generator-numerals-raw.simple.hfst: redundant_numerals.hfst \
 # guesser: no derivation allowed
 guesser-raw.simple.hfst: guesser.tmp.hfst \
 				$(EST_GUESSER_PRE_FILTERS:%=%.hfst) 
-	$(AM_V_XFST)$(PRINTF) "set flag-is-epsilon ON\n\
+	$(AM_V_XFST_TOOL)$(PRINTF) "set flag-is-epsilon ON\n\
 			read regex                         \
 			$(EST_GUESSER_PRE_FILTERS:%=@\"%.hfst\" .o.)    \
 			[ @\"$<\" ] \
@@ -378,7 +378,7 @@ guesser-raw.simple.hfst: guesser.tmp.hfst \
 #				$(EST_GUESSER_PRE_FILTERS:%=%.hfst) \
 #				$(EST_EXTRA_POST_FILTERS:%=%.hfst) \
 #				filters/downcase-derived_proper-strings.est.hfst
-#	$(AM_V_XFST)$(PRINTF) "set flag-is-epsilon ON\n\
+#	$(AM_V_XFST_TOOL)$(PRINTF) "set flag-is-epsilon ON\n\
 #			read regex                         \
 #			$(EST_GUESSER_PRE_FILTERS:%=@\"%.hfst\" .o.)    \
 #			[ @\"$<\" ] \
@@ -396,7 +396,7 @@ guesser-raw.simple.hfst: guesser.tmp.hfst \
 # XEROX:
 analyser-wordpairs-raw.simple.xfst: redundant_wordpairs.xfst \
 					$(EST_WORDPAIR_FILTERS:%=%.xfst)
-	$(AM_V_XFST)$(PRINTF) "set flag-is-epsilon ON\n\
+	$(AM_V_XFST_TOOL)$(PRINTF) "set flag-is-epsilon ON\n\
 			read regex                         \
 			$(EST_WORDPAIR_FILTERS:%=@\"%.xfst\" .o.)    \
 			@\"$<\"                                       \
@@ -406,7 +406,7 @@ analyser-wordpairs-raw.simple.xfst: redundant_wordpairs.xfst \
 
 analyser-numerals-raw.simple.xfst: redundant_numerals.xfst \
 					$(EST_NUMERAL_FILTERS:%=%.xfst)
-	$(AM_V_XFST)$(PRINTF) "set flag-is-epsilon ON\n\
+	$(AM_V_XFST_TOOL)$(PRINTF) "set flag-is-epsilon ON\n\
 			read regex                         \
 			$(EST_NUMERAL_FILTERS:%=@\"%.xfst\" .o.)    \
 			@\"$<\"                                       \
@@ -422,7 +422,7 @@ analyser-raw-gt-desc.simple.xfst: analyser-raw-gt-desc.tmp.xfst \
 				$(EST_EXTRA_PRE_FILTERS:%=%.xfst) \
 				$(EST_EXTRA_POST_FILTERS:%=%.xfst) \
 				filters/downcase-derived_proper-strings.est.xfst
-	$(AM_V_XFST)$(PRINTF) "set flag-is-epsilon ON\n\
+	$(AM_V_XFST_TOOL)$(PRINTF) "set flag-is-epsilon ON\n\
 			read regex                         \
 			$(EST_EXTRA_PRE_FILTERS:%=@\"%.xfst\" .o.)    \
 			[ @\"$<\" | @\"analyser-numerals-raw.simple.xfst\" ]  \
@@ -446,7 +446,7 @@ generator-raw-gt-desc.simple.hfst: generator-raw-gt-desc.tmp.hfst \
 				$(EST_EXTRA_PRE_FILTERS:%=%.hfst) \
 				$(EST_EXTRA_POST_FILTERS:%=%.hfst) \
 				filters/downcase-derived_proper-strings.est.hfst
-	$(AM_V_XFST)$(PRINTF) "set flag-is-epsilon ON\n\
+	$(AM_V_XFST_TOOL)$(PRINTF) "set flag-is-epsilon ON\n\
 			read regex                         \
 			$(EST_EXTRA_PRE_FILTERS:%=@\"%.hfst\" .o.)    \
 			[ @\"$<\" | @\"generator-numerals-raw.simple.hfst\" \
@@ -469,7 +469,7 @@ generator-raw-gt-desc.simple.hfst: generator-raw-gt-desc.tmp.hfst \
 # HFST:
 generator-raw-gt-desc.comp.hfst: generator-raw-gt-desc.simple.hfst \
 				filters/evaluate-flags.est.hfst
-	$(AM_V_XFST)$(PRINTF) "set flag-is-epsilon ON\n\
+	$(AM_V_XFST_TOOL)$(PRINTF) "set flag-is-epsilon ON\n\
 			read regex \
 			[								\
 			  [                                                                    \
@@ -486,7 +486,7 @@ generator-raw-gt-desc.comp.hfst: generator-raw-gt-desc.simple.hfst \
 # XFST:
 analyser-raw-gt-desc.comp.xfst: analyser-raw-gt-desc.simple.xfst \
 				filters/evaluate-flags.est.xfst
-	$(AM_V_XFST)$(PRINTF) "set flag-is-epsilon ON\n\
+	$(AM_V_XFST_TOOL)$(PRINTF) "set flag-is-epsilon ON\n\
 			read regex \
 			[                                                                    \
 			  [                                                                  \
@@ -504,7 +504,7 @@ analyser-raw-gt-desc.comp.xfst: analyser-raw-gt-desc.simple.xfst \
 # the vocabulary, i.e. words that might be combined with - / or otherwise
 # HFST:
 generator-raw-gt-desc.vocabulary.hfst: generator-raw-gt-desc.comp.hfst
-	$(AM_V_XFST)$(PRINTF) "set flag-is-epsilon ON\n\
+	$(AM_V_XFST_TOOL)$(PRINTF) "set flag-is-epsilon ON\n\
 			read regex @\"$<\" ; \n\
 			save stack $@\n\
 			quit\n" | $(XFST_TOOL)
@@ -512,7 +512,7 @@ generator-raw-gt-desc.vocabulary.hfst: generator-raw-gt-desc.comp.hfst
 # XEROX:
 analyser-raw-gt-desc.vocabulary.xfst: analyser-raw-gt-desc.comp.xfst \
 					analyser-wordpairs-raw.simple.xfst 					
-	$(AM_V_XFST)$(PRINTF) "set flag-is-epsilon ON\n\
+	$(AM_V_XFST_TOOL)$(PRINTF) "set flag-is-epsilon ON\n\
 			read regex @\"$<\" ; \n\
 			read regex @\"analyser-wordpairs-raw.simple.xfst\" ; \n\
 			union net\n\
@@ -625,7 +625,7 @@ generator-raw-gt-desc.weighted.hfst: generator-raw-gt-desc.vocabulary.hfst
 else !WITH_OFST_TROPICAL
 
 generator-raw-gt-desc.weighted.hfst: generator-raw-gt-desc.vocabulary.hfst
-		cp $< $@
+	$(AM_V_CP)cp $< $@
 endif !WITH_OFST_TROPICAL
 
 
@@ -733,7 +733,7 @@ guesser-raw.weighted.hfst: guesser-raw.simple.hfst
 else !WITH_OFST_TROPICAL
 
 guesser-raw.weighted.hfst: guesser-raw.simple.hfst 
-		cp $< $@
+	$(AM_V_CP)cp $< $@
 endif !WITH_OFST_TROPICAL
 
 # make the raw ones
@@ -741,7 +741,7 @@ endif !WITH_OFST_TROPICAL
 # map the name to GT/Divvun conventions
 
 generator-raw-gt-desc.hfst: generator-raw-gt-desc.weighted.hfst 
-		cp $< $@
+		$(AM_V_CP)cp $< $@
 
 # HFST:
 # this is probably the pure guesser;
@@ -780,7 +780,7 @@ analyser-raw-gt-guess.hfst: generator-raw-gt-guess.hfst \
 # XEROX:
 # probably garbage anyway
 analyser-raw-gt-desc.xfst: analyser-raw-gt-desc.vocabulary.xfst 
-		cp $< $@
+	$(AM_V_CP)cp $< $@
 
 # generator with a guesser
 # 
