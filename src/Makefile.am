@@ -193,12 +193,10 @@ fst/guesser.tmp.hfst: fst/guesser.tmp0.hfst filters/upcase-guessed_proper-string
 # guesser
 # HFST:
 # a transducer for blabla- and Blabla-
-guesser-smth.hfst: fst/guesser-smth.xfscript
-	$(AM_V_XFST_TOOL)$(PRINTF) "set flag-is-epsilon ON\n\
-			source $<   \
-			\n\
-		 save stack $@\n\
-		 quit\n" | $(XFST_TOOL)
+guesser-smth.hfst: $(srcdir)/fst/guesser-smth.xfscript
+	$(AM_V_HXFST)printf "\n\nsave stack $@\nquit\n" | cat $< - \
+		| (echo "set flag-is-epsilon ON" && cat) \
+		| "$(HFST_XFST)" -p $(MORE_VERBOSITY) $(HFST_FORMAT)
 
 guesser.tmp1.hfst: fst/guesser.tmp.hfst \
 					 fst/phonology.compose.hfst
