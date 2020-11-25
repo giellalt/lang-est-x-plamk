@@ -1,9 +1,12 @@
-name = "Estonian"
+name = "Estonian (Plamk)"
 version = "0.1.1"
 
 [macos]
-system_pkg_id = "no.divvun.MacDivvun.et"
+system_pkg_id = "no.divvun.MacDivvun.et-x-plamk"
 
 [windows]
-system_product_code = "DE6DFE09-6430-401F-AF78-31CA36478831"
-msoffice_product_code = "378DB650-5AEB-406F-8C0D-AAA3D0FB800A"
+system_product_code = "{03223A61-0859-478F-AE47-1105B8B00BD6}_is1"
+legacy_product_codes = [
+    { value = "DE6DFE09-6430-401F-AF78-31CA36478831", kind = "nsis" },
+    { value = "378DB650-5AEB-406F-8C0D-AAA3D0FB800A", kind = "nsis" }
+]
