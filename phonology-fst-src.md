@@ -1,6 +1,10 @@
 ## Phonology
 
+This file documents the [phonology.twolc file](http://github.com/giellalt/lang-est-x-plamk/blob/main/src/fst/phonology.twolc) 
 
+
+ * **a b c d e f g h i j k l m n o p q r s š z ž t u v w õ ä ö ü x y** 
+ * **A B C D E F G H I J K L M N O P Q R S Š Z Ž T U V W Õ Ä Ö Ü X Y** 
 
 Sami GT convention 
 
@@ -308,6 +312,9 @@ high vowel lowering in certain contexts
 
 
 
+
+
+## Rules
 
 
 
