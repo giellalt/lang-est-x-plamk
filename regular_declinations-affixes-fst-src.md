@@ -184,3 +184,5 @@ not all the cases must be distinguished
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/regular_declinations.lexc](http://github.com/giellalt/lang-est/blob/main/../src/fst/affixes/regular_declinations.lexc)</small>
