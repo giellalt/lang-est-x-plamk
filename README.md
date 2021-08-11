@@ -3,7 +3,7 @@ The Estonian (PLAMK) morphology and tools
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-est-x-plamk)](https://github.com/giellalt/lang-est-x-plamk/issues)
 [![Build Status](https://github.com/giellalt/lang-est-x-plamk/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-est-x-plamk/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-est-x-plamk)](https://raw.githubusercontent.com/giellalt/lang-est-x-plamk/main/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-est-x-plamk)](https://github.com/giellalt/lang-est-x-plamk/blob/main/LICENSE)
 
 This repository contains finite state source files for the Estonian language,
 for building morphological analysers, proofing tools
