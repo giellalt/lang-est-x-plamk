@@ -1,12 +1,25 @@
-* [functions-cg3-src.md](functions-cg3-src.md)
-* [root-fst-src.md](root-fst-src.md)
-* [exceptional_declinations-affixes-fst-src.md](exceptional_declinations-affixes-fst-src.md)
-* [symbols-affixes-fst-src.md](symbols-affixes-fst-src.md)
-* [verbs-affixes-fst-src.md](verbs-affixes-fst-src.md)
-* [gi-affixes-fst-src.md](gi-affixes-fst-src.md)
-* [regular_declinations-affixes-fst-src.md](regular_declinations-affixes-fst-src.md)
-* [acronyms-stems-fst-src.md](acronyms-stems-fst-src.md)
-* [phonology-fst-src.md](phonology-fst-src.md)
-* [transcriptor-numbers-digit2text-transcriptions-src.md](transcriptor-numbers-digit2text-transcriptions-src.md)
-* [transcriptor-abbrevs2text-transcriptions-src.md](transcriptor-abbrevs2text-transcriptions-src.md)
-* [grammarchecker-grammarcheckers-tools.md](grammarchecker-grammarcheckers-tools.md)
+* `src/`
+    * `cg3/`
+        * [functions.cg3](src-cg3-functions.cg3.html) ([src](https://github.com/giellalt/lang-est-x-plamk/blob/main/src/cg3/functions.cg3))
+    * `fst/`
+        * `affixes/`
+            * [exceptional_declinations.lexc](src-fst-affixes-exceptional_declinations.lexc.html) ([src](https://github.com/giellalt/lang-est-x-plamk/blob/main/src/fst/affixes/exceptional_declinations.lexc))
+            * [gi.lexc](src-fst-affixes-gi.lexc.html) ([src](https://github.com/giellalt/lang-est-x-plamk/blob/main/src/fst/affixes/gi.lexc))
+            * [regular_declinations.lexc](src-fst-affixes-regular_declinations.lexc.html) ([src](https://github.com/giellalt/lang-est-x-plamk/blob/main/src/fst/affixes/regular_declinations.lexc))
+            * [symbols.lexc](src-fst-affixes-symbols.lexc.html) ([src](https://github.com/giellalt/lang-est-x-plamk/blob/main/src/fst/affixes/symbols.lexc))
+            * [verbs.lexc](src-fst-affixes-verbs.lexc.html) ([src](https://github.com/giellalt/lang-est-x-plamk/blob/main/src/fst/affixes/verbs.lexc))
+        * [phonology.twolc](src-fst-phonology.twolc.html) ([src](https://github.com/giellalt/lang-est-x-plamk/blob/main/src/fst/phonology.twolc))
+        * [root.lexc](src-fst-root.lexc.html) ([src](https://github.com/giellalt/lang-est-x-plamk/blob/main/src/fst/root.lexc))
+        * `stems/`
+            * [acronyms.lexc](src-fst-stems-acronyms.lexc.html) ([src](https://github.com/giellalt/lang-est-x-plamk/blob/main/src/fst/stems/acronyms.lexc))
+    * `phonetics/`
+        * [txt2ipa.xfscript](src-phonetics-txt2ipa.xfscript.html) ([src](https://github.com/giellalt/lang-est-x-plamk/blob/main/src/phonetics/txt2ipa.xfscript))
+    * `transcriptions/`
+        * [transcriptor-abbrevs2text.lexc](src-transcriptions-transcriptor-abbrevs2text.lexc.html) ([src](https://github.com/giellalt/lang-est-x-plamk/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc))
+        * [transcriptor-numbers-digit2text.lexc](src-transcriptions-transcriptor-numbers-digit2text.lexc.html) ([src](https://github.com/giellalt/lang-est-x-plamk/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc))
+* `tools/`
+    * `grammarcheckers/`
+        * [grammarchecker.cg3](tools-grammarcheckers-grammarchecker.cg3.html) ([src](https://github.com/giellalt/lang-est-x-plamk/blob/main/tools/grammarcheckers/grammarchecker.cg3))
+    * `tokenisers/`
+        * [tokeniser-disamb-gt-desc.pmscript](tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.html) ([src](https://github.com/giellalt/lang-est-x-plamk/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript))
+        * [tokeniser-gramcheck-gt-desc.pmscript](tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.html) ([src](https://github.com/giellalt/lang-est-x-plamk/blob/main/tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript))
