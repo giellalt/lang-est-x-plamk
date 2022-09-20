@@ -29,8 +29,6 @@ Documentation
 
 Documentation can be found at:
 
-- [In source documentation generated with github
-   pages](https://gilellalt.github.io/lang-est-x-plamk/)
 -   <https://giellalt.uit.no/tools/docu-est-manual.html>
 -   <https://giellalt.uit.no/index.html>
 
