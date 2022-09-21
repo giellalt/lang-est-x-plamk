@@ -29,7 +29,7 @@ Documentation
 
 Documentation can be found at:
 
--   <https://giellalt.uit.no/tools/docu-est-manual.html>
+- [Language specific documentation](https://giellalt.github.io/lang-est-x-plamk/)
 -   <https://giellalt.uit.no/index.html>
 
 Core dependencies
