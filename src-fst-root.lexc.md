@@ -573,6 +573,7 @@ Copied from Sami root.lexc
 * `+PUNCT `: Kirjavahemärk / Punctuation
 * `+LEFT `: Kirjavahemärgi asetus / Punctuation orientation
 * `+RIGHT `: Kirjavahemärgi asetus / Punctuation orientation
+* `+Err/Orth `: Used for shared data, not used in the EST source
 
 ## Flag diacritics
 Use the following flag diacritics to control downcasing of derived proper
