@@ -583,6 +583,7 @@ Multichar_Symbols
 +PUNCT !!= * `@CODE@`: Kirjavahemärk / Punctuation
 +LEFT !!= * `@CODE@`: Kirjavahemärgi asetus / Punctuation orientation
 +RIGHT !!= * `@CODE@`: Kirjavahemärgi asetus / Punctuation orientation
++Err/Orth !!= * `@CODE@`: Used for shared data, not used in the EST source
 
 !! ## Flag diacritics
 !! Use the following flag diacritics to control downcasing of derived proper
