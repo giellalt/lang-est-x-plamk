@@ -3,7 +3,7 @@
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
 [![License](https://img.shields.io/github/license/giellalt/lang-est-x-plamk)](https://github.com/giellalt/lang-est-x-plamk/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-est-x-plamk)](https://github.com/giellalt/lang-est-x-plamk/issues)
-[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-est-x-plamk/main/badge.svg)](https://github.com/giellalt/lang-est-x-plamk/actions)
+[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-est-x-plamk/main/badge.svg)](https://github.com/giellalt/lang-est-x-plamk/actions)
 
 This page documents the work on the [PLAMK Estonian language model](https://github.com/giellalt/lang-est-x-plamk). There are two language models for Estonian on this site. The main architect behind this one is Jaak Pruulmann-Vengerfeldt. 
 
