@@ -98,23 +98,23 @@ EST_NUMERAL_FILTERS=filters/reorder-tags.est filters/numeral-filter.est
 # paired words are words whose both parts inflect, e.g. emb-kumb, kihin-kahin
 # paired words: initial part
 # HFST:
-pair_initial.tmp1.hfst: fst/pair_initial.tmp.hfst \
-					 fst/phonology.compose.hfst
+pair_initial.tmp1.hfst: morphology/pair_initial.tmp.hfst \
+					 morphology/phonology.compose.hfst
 	$(AM_V_INTRSCT)\
 		  $(HFST_DETERMINIZE) $(MORE_VERBOSITY) $(HFST_FLAGS) $<\
 		| $(HFST_MINIMIZE) $(MORE_VERBOSITY) $(HFST_FLAGS) \
 		| $(HFST_COMPOSE_INTERSECT) $(COMPOSE_INTERSECT_FLAG) \
 			$(MORE_VERBOSITY) $(HFST_FLAGS) \
-			-2 fst/phonology.compose.hfst \
+			-2 morphology/phonology.compose.hfst \
 		| $(HFST_MINIMIZE) $(MORE_VERBOSITY) $(HFST_FLAGS) \
 		-o $@
 
 # XEROX
-pair_initial.tmp1.xfst: fst/pair_initial.tmp.xfst \
-			 fst/phonology.compose.xfst
+pair_initial.tmp1.xfst: morphology/pair_initial.tmp.xfst \
+			 morphology/phonology.compose.xfst
 	$(AM_V_LEXC)$(PRINTF) \
-		"read-source fst/pair_initial.tmp.xfst\n\
-		read-rules fst/phon.compose.xfst\n\
+		"read-source morphology/pair_initial.tmp.xfst\n\
+		read-rules morphology/phon.compose.xfst\n\
 		compose-result\n\
 		save-result $@\n\
 		quit\n" \
@@ -123,23 +123,23 @@ pair_initial.tmp1.xfst: fst/pair_initial.tmp.xfst \
 # compound numerals where both parts inflect, e.g. viis#sada, viie#saja
 # compound numerals: initial part
 # HFST:
-num_initial.tmp1.hfst: fst/num_initial.tmp.hfst \
-					 fst/phonology.compose.hfst
+num_initial.tmp1.hfst: morphology/num_initial.tmp.hfst \
+					 morphology/phonology.compose.hfst
 	$(AM_V_INTRSCT)\
 		  $(HFST_DETERMINIZE) $(MORE_VERBOSITY) $(HFST_FLAGS) $<\
 		| $(HFST_MINIMIZE) $(MORE_VERBOSITY) $(HFST_FLAGS) \
 		| $(HFST_COMPOSE_INTERSECT) $(COMPOSE_INTERSECT_FLAG) \
 			$(MORE_VERBOSITY) $(HFST_FLAGS) \
-			-2 fst/phonology.compose.hfst \
+			-2 morphology/phonology.compose.hfst \
 		| $(HFST_MINIMIZE) $(MORE_VERBOSITY) $(HFST_FLAGS) \
 		-o $@
 
 # XEROX
-num_initial.tmp1.xfst: fst/num_initial.tmp.xfst \
-			 fst/phonology.compose.xfst
+num_initial.tmp1.xfst: morphology/num_initial.tmp.xfst \
+			 morphology/phonology.compose.xfst
 	$(AM_V_LEXC)$(PRINTF) \
-		"read-source fst/num_initial.tmp.xfst\n\
-		read-rules fst/phonology.compose.xfst\n\
+		"read-source morphology/num_initial.tmp.xfst\n\
+		read-rules morphology/phonology.compose.xfst\n\
 		compose-result\nsave-result $@\n\
 		quit\n" \
 		| $(LEXC) $(VERBOSITY)
@@ -147,23 +147,23 @@ num_initial.tmp1.xfst: fst/num_initial.tmp.xfst \
 
 # paired words: final part
 # HFST:
-pair_final.tmp1.hfst: fst/pair_final.tmp.hfst \
-					 fst/phonology.compose.hfst
+pair_final.tmp1.hfst: morphology/pair_final.tmp.hfst \
+					 morphology/phonology.compose.hfst
 	$(AM_V_INTRSCT)\
 		  $(HFST_DETERMINIZE) $(MORE_VERBOSITY) $(HFST_FLAGS) $<\
 		| $(HFST_MINIMIZE) $(MORE_VERBOSITY) $(HFST_FLAGS) \
 		| $(HFST_COMPOSE_INTERSECT) $(COMPOSE_INTERSECT_FLAG) \
 			$(MORE_VERBOSITY) $(HFST_FLAGS) \
-			-2 fst/phonology.compose.hfst \
+			-2 morphology/phonology.compose.hfst \
 		| $(HFST_MINIMIZE) $(MORE_VERBOSITY) $(HFST_FLAGS) \
 		-o $@ 
 
 # XEROX
-pair_final.tmp1.xfst: fst/pair_final.tmp.xfst \
-			 fst/phonology.compose.xfst
+pair_final.tmp1.xfst: morphology/pair_final.tmp.xfst \
+			 morphology/phonology.compose.xfst
 	$(AM_V_LEXC)$(PRINTF) \
-		"read-source fst/pair_final.tmp.xfst\n\
-		read-rules fst/phonology.compose.xfst\n\
+		"read-source morphology/pair_final.tmp.xfst\n\
+		read-rules morphology/phonology.compose.xfst\n\
 		compose-result\n\
 		save-result $@\n\
 		quit\n" \
@@ -171,23 +171,23 @@ pair_final.tmp1.xfst: fst/pair_final.tmp.xfst \
 
 # compound numerals: final part
 # HFST:
-num_final.tmp1.hfst: fst/num_final.tmp.hfst \
-					 fst/phonology.compose.hfst
+num_final.tmp1.hfst: morphology/num_final.tmp.hfst \
+					 morphology/phonology.compose.hfst
 	$(AM_V_INTRSCT)\
 		  $(HFST_DETERMINIZE) $(MORE_VERBOSITY) $(HFST_FLAGS) $<\
 		| $(HFST_MINIMIZE) $(MORE_VERBOSITY) $(HFST_FLAGS) \
 		| $(HFST_COMPOSE_INTERSECT) $(COMPOSE_INTERSECT_FLAG) \
 			$(MORE_VERBOSITY) $(HFST_FLAGS) \
-			-2 fst/phonology.compose.hfst \
+			-2 morphology/phonology.compose.hfst \
 		| $(HFST_MINIMIZE) $(MORE_VERBOSITY) $(HFST_FLAGS) \
 		-o $@ 
 
 # XEROX
-num_final.tmp1.xfst: fst/num_final.tmp.xfst \
-			 fst/phonology.compose.xfst
+num_final.tmp1.xfst: morphology/num_final.tmp.xfst \
+			 morpholy/phonology.compose.xfst
 	$(AM_V_LEXC)$(PRINTF) \
-		"read-source fst/num_final.tmp.xfst\n\
-		read-rules fst/phonology.compose.xfst\n\
+		"read-source morphology/num_final.tmp.xfst\n\
+		read-rules morphology/phonology.compose.xfst\n\
 		compose-result\n\
 		save-result $@\n\
 		quit\n" \
@@ -195,7 +195,7 @@ num_final.tmp1.xfst: fst/num_final.tmp.xfst \
 
 # upcase names:
 # upcase both the lexical and the surface side
-fst/guesser.tmp.hfst: fst/guesser.tmp0.hfst filters/upcase-guessed_proper-strings.est.hfst
+morphology/guesser.tmp.hfst: morphology/guesser.tmp0.hfst filters/upcase-guessed_proper-strings.est.hfst
 	$(AM_V_XFST_TOOL)$(PRINTF) "set flag-is-epsilon OFF\n\
 			read regex                         \
 			@\"filters/upcase-guessed_proper-strings.est.hfst\".i       \
@@ -209,19 +209,19 @@ fst/guesser.tmp.hfst: fst/guesser.tmp0.hfst filters/upcase-guessed_proper-string
 # guesser
 # HFST:
 # a transducer for blabla- and Blabla-
-guesser-smth.hfst: $(srcdir)/fst/guesser-smth.xfscript
+guesser-smth.hfst: $(srcdir)/morphology/guesser-smth.xfscript
 	$(AM_V_HXFST)printf "\n\nsave stack $@\nquit\n" | cat $< - \
 		| (echo "set flag-is-epsilon ON" && cat) \
 		| "$(HFST_XFST)" -p $(MORE_VERBOSITY) $(HFST_FORMAT)
 
-guesser.tmp1.hfst: fst/guesser.tmp.hfst \
-					 fst/phonology.compose.hfst
+guesser.tmp1.hfst: morphology/guesser.tmp.hfst \
+					 morphology/phonology.compose.hfst
 	$(AM_V_INTRSCT)\
 		  $(HFST_DETERMINIZE) $(MORE_VERBOSITY) $(HFST_FLAGS) $<\
 		| $(HFST_MINIMIZE) $(MORE_VERBOSITY) $(HFST_FLAGS) \
 		| $(HFST_COMPOSE_INTERSECT) $(COMPOSE_INTERSECT_FLAG) \
 			$(MORE_VERBOSITY) $(HFST_FLAGS) \
-			-2 fst/phonology.compose.hfst \
+			-2 morphology/phonology.compose.hfst \
 		| $(HFST_MINIMIZE) $(MORE_VERBOSITY) $(HFST_FLAGS) \
 		-o $@ 
 
@@ -229,7 +229,7 @@ guesser.tmp1.hfst: fst/guesser.tmp.hfst \
 # not implemented...
 
 # acronyms
-acronyms.tmp1.%: fst/acronyms.tmp.%
+acronyms.tmp1.%: morphology/acronyms.tmp.%
 			   cp $< $@ 
 
 # FOMA
