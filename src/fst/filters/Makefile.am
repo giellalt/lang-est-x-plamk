@@ -27,21 +27,7 @@ GIELLA_FILTER_LOCAL_REGEX_SRCS=\
 					rename-POS_before_Der-tags.regex
 
 # List any local filter xfscript files here:
-GIELLA_FILTER_LOCAL_XFSCRIPT_SRCS=reorder-tags.est.xfscript \
-                                  remove-sg-forms.est.xfscript \
-                                  remove-pl-forms.est.xfscript \
-                                  remove-sg-nom-forms.est.xfscript \
-                                  remove-non-gi-forms.est.xfscript \
-                                  remove-usage-tags.est.xfscript \
-                                  modify-derivations.est.xfscript \
-                                  block-derivations.est.xfscript \
-                                  block-compounds.est.xfscript \
-                                  wordpair-filter.est.xfscript \
-                                  numeral-filter.est.xfscript \
-                                  evaluate-flags.est.xfscript \
-                                  downcase-derived_proper-strings.est.xfscript \
-                                  upcase-guessed_proper-strings.est.xfscript \
-                                  remove-guessed-forms.est.xfscript
+GIELLA_FILTER_LOCAL_XFSCRIPT_SRCS=
 
 # List any local filter lexc files here:
 GIELLA_FILTER_LOCAL_LEXC_SRCS=
