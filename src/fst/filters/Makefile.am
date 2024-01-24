@@ -26,8 +26,6 @@ GIELLA_FILTER_LOCAL_REGEX_SRCS=\
 					remove-norm-comp-tags.regex \
 					rename-POS_before_Der-tags.regex
 
-
-
 # List any local filter xfscript files here:
 GIELLA_FILTER_LOCAL_XFSCRIPT_SRCS=reorder-tags.est.xfscript \
                                   remove-sg-forms.est.xfscript \
