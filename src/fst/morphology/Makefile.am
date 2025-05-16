@@ -50,10 +50,10 @@ GT_LEXC_SRCS_L1_L2=\
                          stems/propernouns.lexc \
                          stems/verbs.lexc \
                          stems/noninflecting_verbs.lexc \
-                         stems/prefixes.lexc \
                          stems/final_components.lexc \
 			stems/numbers.lexc \
 			stems/acronyms.lexc \
+			affixes/prefixes.lexc \
 			affixes/symbols.lexc     \
 			affixes/regular_declinations.lexc \
 			affixes/exceptional_declinations.lexc \
