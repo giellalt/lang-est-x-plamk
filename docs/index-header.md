@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-est-x-plamk)](https://github.com/giellalt/lang-est-x-plamk/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-est-x-plamk)](https://github.com/giellalt/lang-est-x-plamk/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-est-x-plamk?label=CI)](https://builds.giellalt.org/pipelines/lang-est-x-plamk/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/__GLOTTOLOG_ID__)
 
 This page documents the work on the [PLAMK Estonian language model](https://github.com/giellalt/lang-est-x-plamk). There are two language models for Estonian on this site. The main architect behind this one is Jaak Pruulmann-Vengerfeldt. 
 
