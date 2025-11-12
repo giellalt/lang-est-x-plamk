@@ -1,17 +1,14 @@
-spellername = "Estonian (Plamk)"
-spellerversion = "0.1.1"
-
 # Name of the speller package in various languages.
 # The default is English + autonym:
 [speller.name]
-en = "Estonian (Plamk) spellchecker (Plamk)"
-et = "Autonym spellchecker (Plamk)"
+en = "Estonian (Plamk spellchecker (Plamk"
+et = "Autonym spellchecker (Plamk"
 
 # Description of the speller package in various languages.
 # The default is English + autonym:
 [speller.description]
-en = "A spellchecker for Estonian (Plamk), made by members of the language community, and by the Divvun and Giellatekno groups at UiT The Arctic University of Norway"
-et = "TRANSLATE: A spellchecker for Estonian (Plamk), made by members of the language community, and by the Divvun and Giellatekno groups at UiT The Arctic University of Norway"
+en = "A spellchecker for Estonian (Plamk, made by members of the language community, and by the Divvun and Giellatekno groups at UiT The Arctic University of Norway"
+et = "TRANSLATE: A spellchecker for Estonian (Plamk, made by members of the language community, and by the Divvun and Giellatekno groups at UiT The Arctic University of Norway"
 
 [macos]
 system_pkg_id = "no.divvun.MacDivvun.et-x-plamk"
@@ -22,3 +19,14 @@ legacy_product_codes = [
     { value = "DE6DFE09-6430-401F-AF78-31CA36478831", kind = "nsis" },
     { value = "378DB650-5AEB-406F-8C0D-AAA3D0FB800A", kind = "nsis" }
 ]
+[package.speller]
+name = "Estonian (Plamk"
+version = "0.1.1"
+
+[package.grammar]
+name = "Estonian (Plamk"
+version = "0.1.0"
+
+[package.tts-text-proc]
+name = "Estonian (Plamk"
+version = "0.1.0"
