@@ -11,11 +11,11 @@
     },
     "propernouns": {
         "lexcfile": "@abs_srcdir@/../stems/propernouns.lexc",
-        "lemmatags": ["+N+Prop+Sg+Nom"]
+        "lemmatags": ["+N+Prop+Sg+Nom", "+N+Prop+Pl+Nom"]
     },
     "verbs": {
         "lexcfile": "@abs_srcdir@/../stems/verbs.lexc",
-        "lemmatags": ["+V+Pers+Sip+Ill"],
-        "exclusions": "\\+Pref"
+        "lemmatags": ["+V+Pers+Sup+Ill"],
+        "exclusions": ["\\+Pref"]
     }
 }
